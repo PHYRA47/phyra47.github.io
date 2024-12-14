@@ -28,6 +28,8 @@ Education
 * **Associate of Science in Computer Science**  
   * **June 2022**: University of the People (Online)  
   * GPA: 3.59/4.00
+
+---
   
 Work Experience
 ======
@@ -48,6 +50,38 @@ Work Experience
   * **September 2022 - August 2023**: 📍Tianjin, China  
   * Duties:
     * Developed ML models for industrial applications and image processing
+
+---
+
+Projects
+======
+* **GoogLeNet on Labeled Faces in the Wild (LFW) Dataset** [:link:](https://github.com/PHYRA47/Computer-Vision/tree/main)  
+  * *Tools: TensorFlow, GPU, Python*  
+  * Trained a GoogLeNet model for face recognition achieving high accuracy.
+
+* **Face Verification and Recognition GUI Application** [:link:](https://github.com/your-username/face-verification)  
+  * *Tools: OpenCV, PyQt5, SQL, Python*  
+  * Developed a GUI-based application for face verification and recognition integrated with a database.
+
+* **Text-Based LLM Chat Interface and Multi-Modal LLM App with Text and Image Inputs** [:link:](https://github.com/your-username/multi-modal-llm-app)  
+  * *Tools: Python, Colab, ngrok, FastAPI*  
+  * Developed a GUI for LLMs with text and image inputs through Colab-hosted APIs.
+
+* **Hyperspectral Imaging: Spectral Image Analysis** [:link:](https://github.com/PHYRA47/Photonics-Laboratory/tree/main/3-spectral-imaging)  
+  * *Tools: Nuance Ex-VIS Camera, MATLAB*  
+  * Captured and analyzed spectral images under simulated daylight.
+
+* **Undergraduate Thesis Project: Amharic Character Recognition with U-Net** [:link:](https://github.com/PHYRA47/Amharic-Character-Recognition-Based-on-UNet)  
+  * *Tools: Sequential CNN, Factored CNN, U-Net, Python*  
+  * Pre-processed datasets and implemented different architectures achieving 93% accuracy.
+
+* **IChemE Process Design Project: Process Simulation and Optimization**  
+  * *Tools: Aspen Plus, AutoCAD*  
+  * Optimized vertical flash drum equipment sizing and integrated comprehensive process flow with P&IDs.
+
+* **Research Project: China-ASEAN Online Program on Data Science and Big Data** [:link:](https://github.com/PHYRA47/NER-task-in-NLP)  
+  * *Tools: Python, Keras*  
+  * Led a four-person team on Named Entity Recognition (NER) and designed NLP models for entity extraction and classification.
 
 Publications
 ======
