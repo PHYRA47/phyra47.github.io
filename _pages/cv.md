@@ -83,24 +83,54 @@ Projects
   * *Tools: Python, Keras*  
   * Led a four-person team on Named Entity Recognition (NER) and designed NLP models for entity extraction and classification.
 
-Publications
+---
+
+Skills
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* **Programming Languages**: Python, MATLAB, Java, Kotlin
+* **Frameworks**: TensorFlow, PyTorch, OpenCV
+* **Web and Database Technologies**: HTML, CSS, JavaScript, SQL
+* **Research Skills**: Literature Review, Data Analysis, Problem Solving
+* **Languages**: English (IELTS 7.0), Mandarin (HSK 5), Amharic (Native)
+
+---
+
+Honors and Awards
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* **Erasmus Mundus Joint Master’s Degree Scholarship**  
+  * European Commission, September 2023  
+  * Associated with Erasmus Mundus Joint Master Degree Photonics for Security, Reliability, and Safety (PSRS) [:link:](https://www.master-photonics4security.eu/)
+
+* **Distinguished International Student Award**, Tianjin University  
+  * July 2018  
+  * Awarded Full Attendance and Second Prize Scholarships for Propaedeutic Education in Chinese Language
+
+* **Chinese Government Scholarship**  
+  * Chinese Scholarship Council, September 2017  
+  * Associated with Tianjin University, School of Chemical Engineering [:link:](http://chemeng.tju.edu.cn/en/)
+
+---
+
+Certifications
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* **Android Developer Fundamentals**, Udacity, Issued Oct 2024, [:link:](https://www.udacity.com/certificate/e/40f83fce-66d4-11ef-9770-5fc11b5c6322)
+* **OpenCV Bootcamp**, OpenCV University, Issued Feb 2024, Credential ID: 0f7c19fa80234aca89476c3831b22246, [:link:](https://courses.opencv.org/certificates/0f7c19fa80234aca89476c3831b22246)
+* **Google Data Analytics Professional Certificate**, Google, Issued Jun 2023, Credential ID: 9WCMZSHPFEE3, [:link:](https://coursera.org/share/156dfcfe26d13e48b4324d959ad6a74d)
+* **MATLAB Onramp**, MathWorks, Issued Mar 2023, [:link:](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=8bdf8200-4637-4c45-957b-ba8f0ec1653c&)
+* **Chinese Proficiency Test, HSK (Level 5)**, Center for Language Education and Cooperation, Issued May 2022, Credential ID: H52205013394, [:link:](https://drive.google.com/file/d/11USCtuuzKhPIqGJ3XuZy0udaEi8SOHl1/view)
+* **Machine Learning**, Stanford University, Issued Apr 2021, Credential ID: 5BLZTTDXUK6V, [:link:](https://www.coursera.org/account/accomplishments/certificate/5BLZTTDXUK6V)
+
+---
+
+References
 ======
-* Currently signed in to 43 different slack teams
+1. **Nathalie Destouches**  
+   Professor, Hubert Curien Laboratory, Université Jean Monnet  
+   Email: nathalie.destouches@univ-st-etienne.fr  
+   Phone: +33 (0)6 07 79 52 31  
+
+2. **Amine Nait-Ali**  
+   Professor, Biometrics Research Group, UPEC  
+   Email: naitali@u-pec.fr
+
+
