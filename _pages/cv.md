@@ -125,12 +125,14 @@ Certifications
 References
 ======
 1. **Nathalie Destouches**  
-   Professor, Hubert Curien Laboratory, Université Jean Monnet  
-   Email: nathalie.destouches@univ-st-etienne.fr  
-   Phone: +33 (0)6 07 79 52 31  
+  Professor, Hubert Curien Laboratory, Université Jean Monnet  
+  Email: nathalie.destouches@univ-st-etienne.fr  
+  Phone: +33 (0)6 07 79 52 31  
+  [LinkedIn](https://www.linkedin.com/in/nathalie-destouches-713605163/)
 
 2. **Amine Nait-Ali**  
-   Professor, Biometrics Research Group, UPEC  
-   Email: naitali@u-pec.fr
+  Professor, Biometrics Research Group, UPEC  
+  Email: naitali@u-pec.fr  
+  [LinkedIn](https://www.linkedin.com/in/amine-nait-ali-a56b5b22/)
 
 
