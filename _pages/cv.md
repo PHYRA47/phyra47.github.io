@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Curriculu Vitae"
+title: "📄 Curriculu Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,26 +11,21 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Erasmus Mundus Joint Master's Degree (EMJMD)** in Photonics for Security, Reliability, and Safety (PSRS)  
+  * **September 2023 - Ongoing**: Université Jean Monnet, University of Eastern Finland, and Université Paris-Est Créteil (UPEC)  
+  * Achievements:
+    * Earned 30 ECTS credits at Université Jean Monnet,  with a grade of 16.13/20
+    * Earned 37 ECTS credits at the University of Eastern Finland with a grade of 4.8/5
+    * Specializing in biometrics and computer vision at UPEC
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Bachelor of Engineering in Chemical Engineering and Technology**  
+  * **June 2022**: Tianjin University, Tianjin, China  
+  * GPA: 3.01/4.00  
+  * Propaedeutic Education program in Chinese Language prior to major coursework
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **Associate of Science in Computer Science**  
+  * **June 2022**: University of the People (Online)  
+  * GPA: 3.59/4.00
   
 Skills
 ======
