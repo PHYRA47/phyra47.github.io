@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+---
+
 Education
 ======
 * **Erasmus Mundus Joint Master's Degree (EMJMD)** in Photonics for Security, Reliability, and Safety (PSRS)  
@@ -27,14 +29,25 @@ Education
   * **June 2022**: University of the People (Online)  
   * GPA: 3.59/4.00
   
-Skills
+Work Experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Master Thesis Researcher**, Sony Europe R&D, Stuttgart Laboratory 1 (SL1)  
+  * ***Upcoming***: 📍Stuttgart, Germany  
+  <!-- * Duties: -->
+  <!--   * Developing DL models for hyperspectral image reconstruction from CT Imaging Spectrometer data -->
+  <!--   * Optimizing neural network architectures for efficient mobile deployment -->
+  <!--   * Implementing a pipeline for image acquisition, reconstruction, and biometric analysis on Android -->
+
+* **Research Intern**, LISSI Laboratory and IMRB (Mondor Institute of Biomedical Research)  
+  * **October 2024 - Ongoing**: 📍Paris, France  
+  * Duties:
+    * Developing ML/DL methods to analyze cell migration in Duchenne Muscular Dystrophy research
+    * Automating tracking systems for myoblast migration analysis via optical microscopy data
+
+* **Graduate Student Assistant**, SMART Bioinformatics Lab, Tianjin University  
+  * **September 2022 - August 2023**: 📍Tianjin, China  
+  * Duties:
+    * Developed ML models for industrial applications and image processing
 
 Publications
 ======
