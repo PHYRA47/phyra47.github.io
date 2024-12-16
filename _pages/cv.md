@@ -22,8 +22,11 @@ Education
 
 * **Bachelor of Engineering in Chemical Engineering and Technology**  
   * **June 2022**: Tianjin University, Tianjin, China  
-  * GPA: 3.01/4.00  
-  * Propaedeutic Education program in Chinese Language prior to major coursework
+  * Achievements:
+    * GPA: 3.01/4.00  
+    * Propaedeutic Education program in Chinese Language prior to major coursework
+    * Graduation IChemE Project: *Cyclopentanol pilot plant design with a throughput of 10000 tons/annum* 
+    * Undergraduate thesis: *Amharic character recognition task based on U-Net*
 
 * **Associate of Science in Computer Science**  
   * **June 2022**: University of the People (Online)  
