@@ -33,8 +33,8 @@ Education
   
 Work Experience
 ======
-* **Master Thesis Researcher**, Sony Europe R&D, Stuttgart Laboratory 1 (SL1)  
-  * ***Upcoming***: 📍Stuttgart, Germany  
+* **Master Thesis Researcher** <!-- Sony Europe R&D, Stuttgart Laboratory 1 (SL1)  -->
+  * ***March 2025 - August 2025***: <!-- 📍Stuttgart, Germany  -->
   <!-- * Duties: -->
   <!--   * Developing DL models for hyperspectral image reconstruction from CT Imaging Spectrometer data -->
   <!--   * Optimizing neural network architectures for efficient mobile deployment -->
