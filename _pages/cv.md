@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "📄 Curriculu Vitae"
+title: "📄 Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -90,11 +90,11 @@ Projects
 
 Skills
 ======
-* **Programming Languages**: Python, MATLAB, Java, Kotlin
-* **Frameworks**: TensorFlow, PyTorch, OpenCV
+* **Programming Languages**: Python, MATLAB, Kotlin
+* **Frameworks**: TensorFlow, OpenCV
 * **Web and Database Technologies**: HTML, CSS, JavaScript, SQL
 * **Research Skills**: Literature Review, Data Analysis, Problem Solving
-* **Languages**: English (IELTS 7.0), Mandarin (HSK 5), Amharic (Native)
+* **Languages**: English (IELTS 7.0), Chinese Mandarin (HSK 5), Amharic (Native)
 
 ---
 
