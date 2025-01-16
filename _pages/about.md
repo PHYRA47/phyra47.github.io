@@ -20,5 +20,5 @@ Previously, I completed my first two semesters at **Université Jean Monnet** in
 - 🩺 **Photonics and Biomedical Imaging**: Advanced imaging techniques for healthcare and security.
 - Also interested about industrial PhD programs that bridge academia and industry. 
 
-
+`
 
