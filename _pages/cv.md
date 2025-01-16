@@ -138,4 +138,14 @@ References
   Email: naitali@u-pec.fr  
   [LinkedIn](https://www.linkedin.com/in/amine-nait-ali-a56b5b22/)
 
+  ---
+
+
+  <div style="text-align: center">
+    <a href="../files/cv.pdf">Download</a> my latest CV as PDF
+  </div>
+
+
+  ---
+
 
