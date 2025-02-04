@@ -1,36 +1,43 @@
 ---
-title: "Multi-Functional Biometrics System"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Face Recognition System for Biometric Verification"
+excerpt: "A Python-based GUI application for face recognition and verification using deep learning models"
 collection: portfolio
-type: "Project"
-permalink: /portfolio/biometrics-system/
 ---
 
-## Multi-Functional Biometrics System
+## Overview
+Developed a robust face recognition system with real-time verification capabilities using deep learning architectures. The system provides both image-to-image comparison and real-time webcam recognition features through an intuitive GUI interface.
 
-**Repository:** [PHYRA47/Biometrics-II](https://github.com/PHYRA47/Biometrics-II)  
-**Languages:** Jupyter Notebook, Python  
-**Description:** 🎓 PSRS, 🏫 UPEC, 📚 Advanced Biometrics  
+<div class="row">
+    <div class="col-sm-6">
+        {% include figure.html url="/images/portfolio-1/tab1.png" caption="Face Recognition System GUI Interface - Image Comparision" %}
+    </div>
+    <div class="col-sm-6">
+        {% include figure.html url="/images/portfolio-1/tab2.png" caption="Face Recognition System GUI Interface - Webcam Comparision" %}
+    </div>
+</div>
 
-### Overview
+## Key Features
+* Multi-model support (VGG19, Xception, ResNet) for face recognition
+* Real-time face verification using webcam feed
+* Image-to-image comparison functionality
+* User-friendly PyQt5-based interface
+* Detailed similarity scoring system
 
-This project is an advanced biometrics system developed as part of the coursework for the Biometrics II class at UPEC. The system integrates various biometric techniques and provides a comprehensive solution for biometric authentication.
+## Technical Details
+* **Framework:** Python, PyQt5
+* **Deep Learning Models:** VGG19, Xception, ResNet
+* **Key Libraries:** OpenCV, TensorFlow, NumPy
+* **Architecture:** Modular design with separate components for UI, model management, and image processing
 
-### Key Features
+{% include video.html url="https://github.com/user-attachments/assets/eb8b5ad0-29cd-408c-a0ec-1ebf7e64e5e0" caption="Live Demo of Face Recognition System" %}
 
-- **Multi-modal Biometrics:** Combines multiple biometric modalities for improved accuracy.
-- **User-Friendly Interface:** Easy-to-use interface for both administrators and users.
-- **High Security:** Implements advanced security measures to protect biometric data.
-- **Extensive Documentation:** Detailed documentation and Jupyter notebooks for easy understanding and reproducibility.
+## Impact & Results
+* Achieved **[X]%** accuracy in face verification tasks
+* Successfully handles various lighting conditions and poses
+* Real-time processing with minimal latency
+* Robust against common spoofing attempts
 
-### Project Structure
-
-- **Jupyter Notebooks:** Contains the main code and documentation for the project.
-- **PureBasic Code:** Additional scripts and utilities written in PureBasic.
-
-### Installation and Usage
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/PHYRA47/Biometrics-II.git
-   cd Biometrics-II
+## Links
+* [GitHub Repository](https://github.com/PHYRA47/Biometrics-II/tree/main/Biometrics%20Skills%20-%20Amine%20Nait-Ali/skill1_Face_Recognition_for_Verification)
+* [Technical Report](https://studentuef-my.sharepoint.com/:b:/g/personal/frnegasa_uef_fi/EWWjhsDW8wZDu4IyLoOzc0IBUqZz6giuS1aRyl1rrhCQoQ?e=Ye5hTX)
+* [Live Demo](https://github.com/user-attachments/assets/eb8b5ad0-29cd-408c-a0ec-1ebf7e64e5e0)
