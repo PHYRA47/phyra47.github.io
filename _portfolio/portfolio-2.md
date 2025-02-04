@@ -14,21 +14,24 @@ The system supports multiple recognition modes, including **image recognition**,
         {% include figure.html 
             url="/images/portfolio-2/tab4_enrollment.png" 
             caption="Face Recognition System GUI Interface - Enrollment Tab" 
-            width="400px" 
+            width="70%" 
+            align="center"
         %}
     </div>
     <div class="col-sm-5">
         {% include figure.html 
             url="/images/portfolio-2/tab1_image_recognition_inaction.png" 
             caption="Face Recognition System GUI Interface - Image Recognition" 
-            width="400px" 
+            width="70%" 
+            align="center" 
         %}
     </div>
         <div class="col-sm-5">
         {% include figure.html 
             url="/images/portfolio-2/tab3_capture_and_identify.png" 
             caption="Face Recognition System GUI Interface - Real-time Recognition" 
-            width="400px" 
+            width="70%" 
+            align="center" 
         %}
     </div>
 </div> 
