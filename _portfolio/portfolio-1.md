@@ -10,11 +10,11 @@ This project focuses on developing a **Face Recognition System** for biometric v
 The system was developed using the **Labeled Faces in the Wild (LFW)** dataset, a widely recognized benchmark for face verification tasks.
 
 <div class="row justify-content-center">
-    <div class="col-sm-5">
+    <div class="col-sm-5 text-center mx-auto">
         {% include figure.html 
             url="/images/portfolio-1/tab1.png" 
             caption="Face Recognition System GUI Interface - Image Comparison" 
-            width="400px" 
+            width="300px" 
         %}
     </div>
     <div class="col-sm-5">
