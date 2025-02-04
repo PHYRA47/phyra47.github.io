@@ -1,6 +1,6 @@
 ---
 title: "Face Recognition System for Biometric Verification"
-excerpt: "A Python-based GUI application for face recognition and verification using deep learning models <br/><img src='/images/500x300.png'>"
+excerpt: "A Python-based GUI application for face recognition and verification using deep learning models <br/><img src='https://static-content.regulaforensics.com/Blog/0524-3.webp'>"
 collection: portfolio
 ---
 
