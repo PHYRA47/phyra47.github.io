@@ -21,7 +21,7 @@ The system was developed using the **Labeled Faces in the Wild (LFW)** dataset, 
         {% include figure.html 
             url="/images/portfolio-1/tab2.png" 
             caption="Face Recognition System GUI Interface - Webcam Comparison" 
-            width="80%" 
+            width="50%" 
         %}
     </div>
 </div> 
