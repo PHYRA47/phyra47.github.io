@@ -2,7 +2,7 @@
     {% if include.url %}
     <img src="{{ include.url }}" 
          class="figure-img img-fluid rounded" 
-         {% if include.width %}width="{{ include.width }}"{% endif %}
+         {% if include.width %}style="width: {{ include.width }};"{% endif %}
          alt="{{ include.caption }}">
     {% endif %}
     {% if include.caption %}
