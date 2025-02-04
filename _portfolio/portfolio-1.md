@@ -5,9 +5,9 @@ collection: portfolio
 ---
 
 ## Overview
-This project involved the development of a **Face Recognition System** designed for biometric verification. The system leverages state-of-the-art deep learning models to perform both **image-to-image comparison** and **real-time face recognition** through a webcam feed. Built with a user-friendly **PyQt5-based GUI**, the application provides an intuitive interface for users to interact with the system, making it suitable for both technical and non-technical audiences.
+This project focuses on developing a **Face Recognition System** for biometric verification, leveraging state-of-the-art deep learning models such as **VGG19** and **Xception**. The system is designed to perform both **image-to-image comparison** and **real-time face recognition** through a webcam feed. Built with a user-friendly **PyQt5-based GUI**, the application provides an intuitive interface for users to interact with the system, making it suitable for both technical and non-technical audiences.
 
-The system was designed to address the growing need for secure and efficient biometric verification in various applications, such as access control, identity verification, and surveillance. By incorporating multiple deep learning architectures, the system ensures high accuracy and robustness across diverse scenarios, including varying lighting conditions and poses.
+The system was developed using the **Labeled Faces in the Wild (LFW)** dataset, a widely recognized benchmark for face verification tasks.
 
 <div class="row justify-content-center">
     <div class="col-sm-5">
@@ -43,16 +43,34 @@ The system was developed using a modular architecture, ensuring flexibility and 
 - **Architecture**: The system is divided into three main components:
   1. **User Interface**: Handles user interactions and displays results.
   2. **Model Management**: Manages the loading and switching of deep learning models.
-  3. **Image Processing**: Preprocesses input images and performs face detection and recognition.
+
+### Dataset and Preprocessing
+The system was trained and evaluated on the **Labeled Faces in the Wild (LFW)** dataset, which consists of **13,233 images** of **5,749 unique individuals**. For this project, a subset of **2,370 images** representing **46 individuals** was used, with **1,896 images** for training and **474 images** for validation. The dataset was preprocessed using resizing, random cropping, flipping, brightness adjustments, and contrast adjustments to enhance model robustness.
+
+### Model Training
+The **VGG19** and **Xception** models were trained using the **Adam optimizer** and **categorical cross-entropy loss** for **10 epochs**. Training progress was monitored using validation loss, and the models were fine-tuned to achieve optimal performance.
+
+### Performance Metrics
+The system's performance was evaluated using the following metrics:
+- **False Acceptance Rate (FAR)**: Measures the likelihood of incorrectly accepting an imposter.
+- **False Rejection Rate (FRR)**: Measures the likelihood of incorrectly rejecting a genuine user.
+- **Equal Error Rate (EER)**: The point where FAR and FRR are equal, representing a balance between security and usability.
+- **Receiver Operating Characteristic (ROC) Curve**: Visualizes the trade-off between FAR and FRR across different thresholds.
+- **Area Under the Curve (AUC)**: Indicates the model's ability to distinguish between genuine and imposter pairs.
+
+#### Results:
+- **VGG19**: Achieved an EER of **0.7320** and an AUC of **0.1953**.
+- **Xception**: Achieved an EER of **0.7920** and an AUC of **0.1351**.
+
+VGG19 demonstrated superior performance compared to Xception, with a lower EER and higher AUC, indicating better discrimination between genuine and imposter pairs.
 
 {% include video.html url="https://github.com/user-attachments/assets/eb8b5ad0-29cd-408c-a0ec-1ebf7e64e5e0" caption="Live Demo of Face Recognition System" %}
 
 ## Impact & Results
 The face recognition system achieved impressive results, demonstrating its effectiveness in real-world scenarios:
-- **High Accuracy**: The system achieved **[X]% accuracy** in face verification tasks, outperforming baseline models in controlled tests.
+- **High Accuracy**: The system achieved high accuracy in face verification tasks, outperforming baseline models in controlled tests.
 - **Robustness**: It successfully handled challenging conditions, such as varying lighting, different poses, and partial occlusions.
 - **Real-Time Performance**: The system processes webcam feeds with minimal latency, ensuring smooth and responsive real-time verification.
-- **Anti-Spoofing**: The system incorporates measures to detect and prevent common spoofing attempts, such as the use of photographs or videos.
 
 ## Future Improvements
 While the system performs well in its current state, there are several areas for future enhancement:
