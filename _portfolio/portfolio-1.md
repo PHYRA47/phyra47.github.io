@@ -14,14 +14,14 @@ The system was developed using the **Labeled Faces in the Wild (LFW)** dataset, 
         {% include figure.html 
             url="/images/portfolio-1/tab1.png" 
             caption="Face Recognition System GUI Interface - Image Comparison" 
-            width="300px" 
+            width="80%" 
         %}
     </div>
     <div class="col-sm-5">
         {% include figure.html 
             url="/images/portfolio-1/tab2.png" 
             caption="Face Recognition System GUI Interface - Webcam Comparison" 
-            width="400px" 
+            width="80%" 
         %}
     </div>
 </div> 
