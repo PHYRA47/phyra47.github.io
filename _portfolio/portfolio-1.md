@@ -6,14 +6,15 @@ collection: portfolio
 
 ## Overview
 Developed a robust face recognition system with real-time verification capabilities using deep learning architectures. The system provides both image-to-image comparison and real-time webcam recognition features through an intuitive GUI interface.
-<!-- <div class="row">
+
+<div class="row">
     <div class="col-sm-6">
         {% include figure.html url="/images/portfolio-1/tab1.png" caption="Face Recognition System GUI Interface - Image Comparision" %}
     </div>
     <div class="col-sm-6">
         {% include figure.html url="/images/portfolio-1/tab2.png" caption="Face Recognition System GUI Interface - Webcam Comparision" %}
     </div>
-</div> -->
+</div> 
 
 ## Key Features
 * Multi-model support (VGG19, Xception, ResNet) for face recognition

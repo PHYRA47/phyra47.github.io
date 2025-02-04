@@ -1,0 +1,39 @@
+<div class="video-container">
+    {% if include.url contains 'youtube.com' or include.url contains 'youtu.be' %}
+    <iframe 
+        width="100%" 
+        height="315" 
+        src="{{ include.url }}" 
+        frameborder="0" 
+        allowfullscreen>
+    </iframe>
+    {% else %}
+    <video 
+        width="100%" 
+        controls 
+        preload="none" 
+        poster="{{ include.poster | default: '' }}">
+        <source src="{{ include.url }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    {% endif %}
+    {% if include.caption %}
+    <div class="video-caption">
+        {{ include.caption }}
+    </div>
+    {% endif %}
+</div>
+
+<style>
+.video-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+.video-caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.5em;
+    color: #666;
+}
+</style>
