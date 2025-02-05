@@ -1,15 +1,14 @@
 <!-- _includes/figure.html -->
-<figure class="text-center">
+<figure class="figure d-flex flex-column align-items-center w-100">
     {% if include.url %}
-    <img src="{{ include.url }}" 
-         class="img-fluid rounded" 
-         {% if include.width %}style="width: {{ include.width }}"{% endif %}
-         alt="{{ include.caption }}">
-         
-    {% if include.caption %}
-    <figcaption class="text-center mt-2">
-        {{ include.caption }}
-    </figcaption>
+    <div class="text-center w-100">
+        <img src="{{ include.url }}" 
+             class="figure-img img-fluid rounded" 
+             {% if include.width %}style="width: {{ include.width }};"{% endif %}
+             alt="{{ include.caption }}">
+    </div>
     {% endif %}
+    {% if include.caption %}
+    <figcaption class="figure-caption w-100 text-center mt-2">{{ include.caption }}</figcaption>
     {% endif %}
 </figure>
