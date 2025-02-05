@@ -59,20 +59,6 @@ Built as part of the Biometrics II curriculum, the system leverages state-of-the
 ### Shared Components
 - **Face Detection:** OpenCV Haar Cascades
 
-### Image Processing Pipeline
-
-```python
-def process_frame(frame):
-    faces = detect_faces(frame)  # OpenCV
-    for (x,y,w,h) in faces:
-        roi = preprocess_roi(frame[y:y+h, x:x+w])  # Resize/Normalize
-        emotion = emotion_model.predict(roi)
-        age = age_model.predict(roi) 
-        gender = gender_model.predict(roi)
-        annotate_frame(frame, x,y,w,h, emotion, age, gender)
-    return frame
-```
-
 ### Common Infrastructure
 - **GUI Framework:** PyQt5
 - **Backend:** TensorFlow 2.x
