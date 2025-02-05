@@ -1,7 +1,7 @@
-<figure class="figure d-flex flex-column align-items-center {% if include.align %}text-center{% endif %}">
+<figure class="figure text-center">
     {% if include.url %}
     <img src="{{ include.url }}" 
-         class="figure-img img-fluid rounded" 
+         class="figure-img img-fluid rounded mx-auto d-block" 
          {% if include.width %}style="width: {{ include.width }};"{% endif %}
          alt="{{ include.caption }}">
     {% endif %}

@@ -17,14 +17,16 @@ Built as part of the Biometrics II curriculum, the system leverages state-of-the
         {% include figure.html 
             url="/images/portfolio-3/emotion.png" 
             caption="Emotion Estimation Tab" 
-            width="300px" 
+            width="70%" 
+            align="center"
         %}
     </div>
     <div class="col-sm-4">
         {% include figure.html 
             url="/images/portfolio-3/age.png" 
             caption="Age Estimation Tab" 
-            width="300px" 
+            width="70%" 
+            align="center"
         %}
     </div>
 </div>
