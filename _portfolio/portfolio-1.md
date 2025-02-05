@@ -16,6 +16,7 @@ The system was developed using the **Labeled Faces in the Wild (LFW)** dataset, 
             caption="Face Recognition System GUI Interface - Image Comparison" 
             width="70%" 
             align="center"
+            text-align="center"
         %}
     </div>
     <div class="col-sm-5">
@@ -24,6 +25,7 @@ The system was developed using the **Labeled Faces in the Wild (LFW)** dataset, 
             caption="Face Recognition System GUI Interface - Webcam Comparison" 
             width="70%" 
             align="center"
+            text-align="center"
         %}
     </div>
 </div> 
