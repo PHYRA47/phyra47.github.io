@@ -54,19 +54,6 @@ Built as part of the Biometrics II curriculum, the system leverages state-of-the
 
 ## Technical Details
 
-### Unified Architecture
-
-```mermaid
-graph TD
-    A[GUI Layer] --> B[Face Detection]
-    B --> C[Emotion Estimation]
-    B --> D[Age Estimation]
-    B --> E[Gender Estimation]
-    C --> F[Result Visualization]
-    D --> F
-    E --> F
-```
-
 ### Shared Components
 - **Face Detection:** OpenCV Haar Cascades
 
@@ -89,16 +76,6 @@ def process_frame(frame):
 - **Backend:** TensorFlow 2.x
 - **Webcam Processing:** Multi-threaded
 - **Model Management System**
-
-### Performance Metrics
-
-| Task   | Best Model  | Accuracy | Inference Time (CPU) |
-|--------|------------|----------|----------------------|
-| Emotion | MobileNetV2 | 85%      | 120ms                |
-| Age    | ResNet50   | MAE=6.2  | 180ms                |
-| Gender | ResNet50   | 94%      | 150ms                |
-
-{% include video.html url="https://github.com/user-attachments/assets/b72d2365-85bd-4b32-98ab-815cec5f8034" caption="Composite Demo: Real-Time Multi-Attribute Analysis" %}
 
 ## Demo
 
@@ -137,7 +114,8 @@ This integrated system demonstrates how multiple biometric tasks can be efficien
 - **Privacy Features:** On-device processing only
 
 ### Links
-- [GitHub Repository](#)
-- [Emotion Demo](#)
-- [Age Demo](#)
-- [Gender Demo](#)
+- [GitHub Repository](https://github.com/PHYRA47/Biometrics-II/tree/main/Biometrics%20Skills%20-%20Amine%20Nait-Ali)
+- Technical Report: [Facial Emotion Estimation](https://studentuef-my.sharepoint.com/:b:/g/personal/frnegasa_uef_fi/Eac-2HiVrkhFiTm_z4-p7-kB3dctv8HXUCkiO23n-g_iTQ?e=nhQiSf), [Age Estimation](https://studentuef-my.sharepoint.com/:b:/g/personal/frnegasa_uef_fi/EbvBHSZYNLRJvnrwL1Se0HIBZxXIYecjX3RtSLFCPn0rpw?e=XxdZfy), [Gender Estimation](https://studentuef-my.sharepoint.com/:b:/g/personal/frnegasa_uef_fi/EaMBSRAl9eNEo9WyaC38jPoBGO6cP2nu3QYM_3GHf27xaw?e=V0TmpK)
+- [Emotion Demo](https://github.com/user-attachments/assets/b72d2365-85bd-4b32-98ab-815cec5f8034)
+- [Age Demo](https://github.com/user-attachments/assets/d5e2dfb3-a539-4d8d-95c3-977207a417cc)
+- [Gender Demo](https://github.com/user-attachments/assets/e36c9998-5bc5-495c-9011-1501b0662045)
