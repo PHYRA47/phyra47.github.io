@@ -58,33 +58,45 @@ Work Experience
 
 Projects
 ======
-* **GoogLeNet on Labeled Faces in the Wild (LFW) Dataset** [:link:](https://github.com/PHYRA47/Computer-Vision/tree/main)  
-  * *Tools: TensorFlow, GPU, Python*  
-  * Trained a GoogLeNet model for face recognition achieving high accuracy.
+* **Multi-Functional Biometric System** [:link:](https://github.com/PHYRA47/Biometrics-II/tree/main/Biometrics%20Skills%20-%20Amine%20Nait-Ali)
+  * *Tools: Python, OpenCV, TensorFlow, PyQt*  
+  * *October 2024 - January 2025*  
+  * A unified system for face recognition (verification, identification, expression, age, gender, and pose estimation).  
+  * Included human body pose estimation and an integrated GUI for seamless user interaction.  
 
-* **Face Verification and Recognition GUI Application** [:link:](https://github.com/your-username/face-verification)  
-  * *Tools: OpenCV, PyQt5, SQL, Python*  
-  * Developed a GUI-based application for face verification and recognition integrated with a database.
-
-* **Text-Based LLM Chat Interface and Multi-Modal LLM App with Text and Image Inputs** [:link:](https://github.com/your-username/multi-modal-llm-app)  
+* **Text-Based LLM Chat Interface and Multi-Modal LLM App with Text and Image Inputs**  
   * *Tools: Python, Colab, ngrok, FastAPI*  
-  * Developed a GUI for LLMs with text and image inputs through Colab-hosted APIs.
+  * *October 2024*  
+  * [GitHub Repo 1 🔗](https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session3-hosting-llm-on-colab) | [GitHub Repo 2 🔗](https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session4-multimodal-llms)  
+  * Developed a GUI for LLMs with text and image inputs through Colab-hosted APIs.  
+
+* **GoogLeNet on Labeled Faces in the Wild (LFW) Dataset** [:link:](https://github.com/PHYRA47/Computer-Vision/tree/main)
+  * *Tools: GoogLeNet, TensorFlow, GPU, Python*  
+  * *November 2024*  
+  * Trained a GoogLeNet model for face recognition on the LFW dataset over GPU.  
 
 * **Hyperspectral Imaging: Spectral Image Analysis** [:link:](https://github.com/PHYRA47/Photonics-Laboratory/tree/main/3-spectral-imaging)  
   * *Tools: Nuance Ex-VIS Camera, MATLAB*  
+  * *April 2024*  
   * Captured and analyzed spectral images under simulated daylight.
 
-* **Undergraduate Thesis Project: Amharic Character Recognition with U-Net** [:link:](https://github.com/PHYRA47/Amharic-Character-Recognition-Based-on-UNet)  
+* **Undergraduate Thesis Project: Amharic Character Recognition with U-Net** [:link:](https://github.com/PHYRA47/Amharic-Character-Recognition-Based-on-UNet) 
   * *Tools: Sequential CNN, Factored CNN, U-Net, Python*  
-  * Pre-processed datasets and implemented different architectures achieving 93% accuracy.
+  * *January 2022 - June 2022*  
+  * Pre-processed datasets from literature sources and implemented different architectures.  
+  * Achieved 93% accuracy on Amharic character recognition.  
 
 * **IChemE Process Design Project: Process Simulation and Optimization**  
   * *Tools: Aspen Plus, AutoCAD*  
+  * *November 2021 - June 2022*  
   * Optimized vertical flash drum equipment sizing and integrated comprehensive process flow with P&IDs.
 
-* **Research Project: China-ASEAN Online Program on Data Science and Big Data** [:link:](https://github.com/PHYRA47/NER-task-in-NLP)  
+* **Research Project: China-ASEAN Online Program on Data Science and Big Data** [:link:](https://github.com/PHYRA47/NER-task-in-NLP) 
   * *Tools: Python, Keras*  
-  * Led a four-person team on Named Entity Recognition (NER) and designed NLP models for entity extraction and classification.
+  * *September 2020 - December 2020*  
+  * Led a four-person research team on Named Entity Recognition (NER) in Natural Language Processing.  
+  * Designed and implemented NLP models for entity extraction and classification.  
+
 
 ---
 
@@ -128,7 +140,7 @@ Certifications
 References
 ======
 
-1. **Nathalie Destouches** [🔗](https://perso.univ-st-etienne.fr/destoucn/)
+1. **[Nathalie Destouches 🔗](https://perso.univ-st-etienne.fr/destoucn/)** 
    Professor, Hubert Curien Laboratory  
    University of Lyon, University of Saint-Etienne  
    Email: nathalie.destouches@univ-st-etienne.fr  
@@ -136,19 +148,22 @@ References
    *Relationship: EMJMD PSRS Head Coordinator*  
    [LinkedIn](https://www.linkedin.com/in/nathalie-destouches-713605163/)
 
-2. **Amine Nait-Ali** [🔗](https://www.amine-nait-ali.org/)
+
+2. **[Amine Nait-Ali 🔗](https://www.amine-nait-ali.org/)**  
    Professor, Biometrics Research Group  
    University of Paris-Est Créteil (UPEC)  
    Email: naitali@u-pec.fr  
    *Relationship: PSRS Coordinator at UPEC*  
    [LinkedIn](https://www.linkedin.com/in/amine-nait-ali-a56b5b22/)
 
-3. **Polina Kuzhir** [🔗](https://uefconnect.uef.fi/en/polina.kuzhir/)  
+
+3. **[Polina Kuzhir 🔗](https://uefconnect.uef.fi/en/polina.kuzhir/)**  
    Professor, Department of Physics and Mathematics  
    University of Eastern Finland (UEF)  
    Email: polina.kuzhir@uef.fi  
    Phone: +358 50 566 6624  
    [LinkedIn](https://www.linkedin.com/in/polina-kuzhir-556765bb/)
+
   
   ---
  
