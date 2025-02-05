@@ -134,20 +134,28 @@ References
    Email: nathalie.destouches@univ-st-etienne.fr  
    Phone: +33 (0)6 07 79 52 31  
    *Relationship: EMJMD PSRS Head Coordinator*  
+   [LinkedIn](https://www.linkedin.com/in/nathalie-destouches-713605163/)
 
 2. **Amine Nait-Ali** [🔗](https://www.amine-nait-ali.org/)
    Professor, Biometrics Research Group  
    University of Paris-Est Créteil (UPEC)  
    Email: naitali@u-pec.fr  
    *Relationship: PSRS Coordinator at UPEC*  
+   [LinkedIn](https://www.linkedin.com/in/amine-nait-ali-a56b5b22/)
 
 3. **Polina Kuzhir** [🔗](https://uefconnect.uef.fi/en/polina.kuzhir/)  
    Professor, Department of Physics and Mathematics  
    University of Eastern Finland (UEF)  
    Email: polina.kuzhir@uef.fi  
    Phone: +358 50 566 6624  
-
+   [LinkedIn](https://www.linkedin.com/in/polina-kuzhir-556765bb/)
   ---
+ 
+
+2. **Amine Nait-Ali**  
+  Professor, Biometrics Research Group, UPEC  
+  Email: naitali@u-pec.fr  
+  
 
 
   <div style="text-align: center">
