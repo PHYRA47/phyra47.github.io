@@ -58,29 +58,29 @@ Work Experience
 
 Projects
 ======
-* **Multi-Functional Biometric System** [:link:](https://github.com/PHYRA47/Biometrics-II/tree/main/Biometrics%20Skills%20-%20Amine%20Nait-Ali)
+
+* **Multi-Functional Biometric System** <a href="https://github.com/PHYRA47/Biometrics-II/tree/main/Biometrics%20Skills%20-%20Amine%20Nait-Ali" target="_blank"><i class="fab fa-github"></i></a>  
   * *Tools: Python, OpenCV, TensorFlow, PyQt*  
   * *October 2024 - January 2025*  
   * A unified system for face recognition (verification, identification, expression, age, gender, and pose estimation).  
   * Included human body pose estimation and an integrated GUI for seamless user interaction.  
 
-* **Text-Based LLM Chat Interface and Multi-Modal LLM App with Text and Image Inputs**  
+* **Text-Based LLM Chat Interface and Multi-Modal LLM App with Text and Image Inputs** <a href="https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session3-hosting-llm-on-colab" target="_blank"><i class="fab fa-github"></i></a> | <a href="https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session4-multimodal-llms" target="_blank"><i class="fab fa-github"></i></a>   
   * *Tools: Python, Colab, ngrok, FastAPI*  
   * *October 2024*  
-  * [GitHub Repo 1 🔗](https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session3-hosting-llm-on-colab) | [GitHub Repo 2 🔗](https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session4-multimodal-llms)  
   * Developed a GUI for LLMs with text and image inputs through Colab-hosted APIs.  
 
-* **GoogLeNet on Labeled Faces in the Wild (LFW) Dataset** [:link:](https://github.com/PHYRA47/Computer-Vision/tree/main)
+* **GoogLeNet on Labeled Faces in the Wild (LFW) Dataset** <a href="https://github.com/PHYRA47/Computer-Vision/tree/main" target="_blank"><i class="fab fa-github"></i></a>  
   * *Tools: GoogLeNet, TensorFlow, GPU, Python*  
   * *November 2024*  
   * Trained a GoogLeNet model for face recognition on the LFW dataset over GPU.  
 
-* **Hyperspectral Imaging: Spectral Image Analysis** [:link:](https://github.com/PHYRA47/Photonics-Laboratory/tree/main/3-spectral-imaging)  
+* **Hyperspectral Imaging: Spectral Image Analysis** <a href="https://github.com/PHYRA47/Photonics-Laboratory/tree/main/3-spectral-imaging" target="_blank"><i class="fab fa-github"></i></a>  
   * *Tools: Nuance Ex-VIS Camera, MATLAB*  
   * *April 2024*  
-  * Captured and analyzed spectral images under simulated daylight.
+  * Captured and analyzed spectral images under simulated daylight.  
 
-* **Undergraduate Thesis Project: Amharic Character Recognition with U-Net** [:link:](https://github.com/PHYRA47/Amharic-Character-Recognition-Based-on-UNet) 
+* **Undergraduate Thesis Project: Amharic Character Recognition with U-Net** <a href="https://github.com/PHYRA47/Amharic-Character-Recognition-Based-on-UNet" target="_blank"><i class="fab fa-github"></i></a>  
   * *Tools: Sequential CNN, Factored CNN, U-Net, Python*  
   * *January 2022 - June 2022*  
   * Pre-processed datasets from literature sources and implemented different architectures.  
@@ -89,9 +89,9 @@ Projects
 * **IChemE Process Design Project: Process Simulation and Optimization**  
   * *Tools: Aspen Plus, AutoCAD*  
   * *November 2021 - June 2022*  
-  * Optimized vertical flash drum equipment sizing and integrated comprehensive process flow with P&IDs.
+  * Optimized vertical flash drum equipment sizing and integrated comprehensive process flow with P&IDs.  
 
-* **Research Project: China-ASEAN Online Program on Data Science and Big Data** [:link:](https://github.com/PHYRA47/NER-task-in-NLP) 
+* **Research Project: China-ASEAN Online Program on Data Science and Big Data** <a href="https://github.com/PHYRA47/NER-task-in-NLP" target="_blank"><i class="fab fa-github"></i></a>  
   * *Tools: Python, Keras*  
   * *September 2020 - December 2020*  
   * Led a four-person research team on Named Entity Recognition (NER) in Natural Language Processing.  
@@ -127,13 +127,14 @@ Honors and Awards
 ---
 
 Certifications
-======
-* **Android Developer Fundamentals**, Udacity, Issued Oct 2024, [:link:](https://www.udacity.com/certificate/e/40f83fce-66d4-11ef-9770-5fc11b5c6322)
-* **OpenCV Bootcamp**, OpenCV University, Issued Feb 2024, Credential ID: 0f7c19fa80234aca89476c3831b22246, [:link:](https://courses.opencv.org/certificates/0f7c19fa80234aca89476c3831b22246)
-* **Google Data Analytics Professional Certificate**, Google, Issued Jun 2023, Credential ID: 9WCMZSHPFEE3, [:link:](https://coursera.org/share/156dfcfe26d13e48b4324d959ad6a74d)
-* **MATLAB Onramp**, MathWorks, Issued Mar 2023, [:link:](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=8bdf8200-4637-4c45-957b-ba8f0ec1653c&)
-* **Chinese Proficiency Test, HSK (Level 5)**, Center for Language Education and Cooperation, Issued May 2022, Credential ID: H52205013394, [:link:](https://drive.google.com/file/d/11USCtuuzKhPIqGJ3XuZy0udaEi8SOHl1/view)
-* **Machine Learning**, Stanford University, Issued Apr 2021, Credential ID: 5BLZTTDXUK6V, [:link:](https://www.coursera.org/account/accomplishments/certificate/5BLZTTDXUK6V)
+======  
+* **Android Developer Fundamentals**, Udacity, Issued Oct 2024, <a href="https://www.udacity.com/certificate/e/40f83fce-66d4-11ef-9770-5fc11b5c6322" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
+* **OpenCV Bootcamp**, OpenCV University, Issued Feb 2024, Credential ID: 0f7c19fa80234aca89476c3831b22246, <a href="https://courses.opencv.org/certificates/0f7c19fa80234aca89476c3831b22246" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
+* **Google Data Analytics Professional Certificate**, Google, Issued Jun 2023, Credential ID: 9WCMZSHPFEE3, <a href="https://coursera.org/share/156dfcfe26d13e48b4324d959ad6a74d" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
+* **MATLAB Onramp**, MathWorks, Issued Mar 2023, <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=8bdf8200-4637-4c45-957b-ba8f0ec1653c&" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
+* **Chinese Proficiency Test, HSK (Level 5)**, Center for Language Education and Cooperation, Issued May 2022, Credential ID: H52205013394, <a href="https://drive.google.com/file/d/11USCtuuzKhPIqGJ3XuZy0udaEi8SOHl1/view" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
+* **Machine Learning**, Stanford University, Issued Apr 2021, Credential ID: 5BLZTTDXUK6V, <a href="https://www.coursera.org/account/accomplishments/certificate/5BLZTTDXUK6V" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
+
 
 ---
 
