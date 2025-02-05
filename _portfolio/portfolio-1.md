@@ -66,13 +66,12 @@ The system's performance was evaluated using the following metrics:
 
 VGG19 demonstrated superior performance compared to Xception, with a lower EER and higher AUC, indicating better discrimination between genuine and imposter pairs.
 
-{% include video.html url="https://github.com/user-attachments/assets/eb8b5ad0-29cd-408c-a0ec-1ebf7e64e5e0" caption="Live Demo of Face Recognition System" %}
+## Demo
 
-## Impact & Results
-The face recognition system achieved impressive results, demonstrating its effectiveness in real-world scenarios:
-- **High Accuracy**: The system achieved high accuracy in face verification tasks, outperforming baseline models in controlled tests.
-- **Robustness**: It successfully handled challenging conditions, such as varying lighting, different poses, and partial occlusions.
-- **Real-Time Performance**: The system processes webcam feeds with minimal latency, ensuring smooth and responsive real-time verification.
+{% include video.html 
+    url="https://github.com/user-attachments/assets/eb8b5ad0-29cd-408c-a0ec-1ebf7e64e5e0" 
+    caption="Live Demo of Face Verification System" 
+%}
 
 ## Future Improvements
 While the system performs well in its current state, there are several areas for future enhancement:

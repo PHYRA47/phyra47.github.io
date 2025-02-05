@@ -80,6 +80,13 @@ The system's performance depends on the selected model, computational efficiency
   - Use efficient data structures (e.g., NumPy arrays or FAISS).
   - Implement batch processing and hardware acceleration.
 
+## Demo
+
+{% include video.html 
+    url="https://github.com/user-attachments/assets/52b92302-bcdb-403b-9580-960e7f4ee091" 
+    caption="Live Demo of Face Recognition System" 
+%}
+
 ## Future Improvements
 While the system performs well in its current state, there are several areas for future enhancement:
 - **Optimization**: Precompute embeddings and use lightweight models for faster processing.
