@@ -149,15 +149,10 @@ References
    Email: polina.kuzhir@uef.fi  
    Phone: +358 50 566 6624  
    [LinkedIn](https://www.linkedin.com/in/polina-kuzhir-556765bb/)
+  
   ---
  
-
-2. **Amine Nait-Ali**  
-  Professor, Biometrics Research Group, UPEC  
-  Email: naitali@u-pec.fr  
-  
-
-
+ 
   <div style="text-align: center">
     <a href="../files/cv.pdf">Download</a> my latest CV as PDF
   </div>
