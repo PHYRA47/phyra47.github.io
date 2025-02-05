@@ -4,11 +4,15 @@
     <div class="text-center w-100">
         <img src="{{ include.url }}" 
              class="figure-img img-fluid rounded" 
-             {% if include.width %}style="width: {{ include.width }};"{% endif %}
+             {% if include.width %}style="width: {{ include.width }}"{% endif %}
              alt="{{ include.caption }}">
     </div>
     {% endif %}
     {% if include.caption %}
-    <figcaption class="figure-caption w-100 text-center mt-2">{{ include.caption }}</figcaption>
+    <div class="w-100 text-center">
+        <figcaption class="figure-caption mt-2" {% if include.width %}style="width: {{ include.width }}; display: inline-block;"{% endif %}>
+            {{ include.caption }}
+        </figcaption>
+    </div>
     {% endif %}
 </figure>
