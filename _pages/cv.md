@@ -65,7 +65,7 @@ Projects
   * A unified system for face recognition (verification, identification, expression, age, gender, and pose estimation).  
   * Included human body pose estimation and an integrated GUI for seamless user interaction.  
 
-* **Text-Based LLM Chat Interface and Multi-Modal LLM App with Text and Image Inputs** <a href="https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session3-hosting-llm-on-colab" target="_blank"><i class="fab fa-github"></i></a> | <a href="https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session4-multimodal-llms" target="_blank"><i class="fab fa-github"></i></a>   
+* **Text-Based LLM Chat Interface and Multi-Modal LLM App with Text and Image Inputs** <a href="https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session3-hosting-llm-on-colab" target="_blank"><i class="fab fa-github"></i></a>  <a href="https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session4-multimodal-llms" target="_blank"><i class="fab fa-github"></i></a>   
   * *Tools: Python, Colab, ngrok, FastAPI*  
   * *October 2024*  
   * Developed a GUI for LLMs with text and image inputs through Colab-hosted APIs.  
