@@ -16,7 +16,6 @@ The system supports multiple recognition modes, including **image recognition**,
             caption="Face Recognition System GUI Interface - Enrollment Tab" 
             width="70%" 
             align="center"
-            text-align="center"
         %}
     </div>
     <div class="col-sm-5">
@@ -25,7 +24,6 @@ The system supports multiple recognition modes, including **image recognition**,
             caption="Face Recognition System GUI Interface - Image Recognition" 
             width="70%" 
             align="center" 
-            text-align="center"
         %}
     </div>
         <div class="col-sm-5">
@@ -34,7 +32,6 @@ The system supports multiple recognition modes, including **image recognition**,
             caption="Face Recognition System GUI Interface - Real-time Recognition" 
             width="70%" 
             align="center" 
-            text-align="center"
         %}
     </div>
 </div> 

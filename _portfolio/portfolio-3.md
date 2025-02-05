@@ -19,7 +19,6 @@ Built as part of the Biometrics II curriculum, the system leverages state-of-the
             caption="Emotion Estimation Tab" 
             width="70%" 
             align="center"
-            text-align="center"
         %}
     </div>
     <div class="col-sm-4">
@@ -28,7 +27,6 @@ Built as part of the Biometrics II curriculum, the system leverages state-of-the
             caption="Age Estimation Tab" 
             width="70%" 
             align="center"
-            text-align="center"
         %}
     </div>
 </div>
