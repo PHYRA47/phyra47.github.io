@@ -7,6 +7,9 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
+---
 Hi👋, my name is **Fromsa**. I am a second-year master's student in the **[Erasmus Mundus Joint Master's Degree in Photonics for Security, Reliability, and Safety (PSRS)](https://www.master-photonics4security.eu/)**. I am specializing in **biometrics** and **computer vision** at Université Paris-Est Créteil (UPEC). 
 
 I am passionate about research in **hyperspectral imaging**, **computer vision**, and their applications in fields like **biometrics** and **biomedical imaging**. My academic journey has provided me with a solid foundation in photonics and machine learning, with hands-on experience in areas such as **spectral image analysis**, and **face recognition**.  
