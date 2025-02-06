@@ -3,7 +3,7 @@ title: "Face Recognition System for Identification"
 excerpt: "A Python-based GUI application for face recognition and identification using multiple deep learning models <br/><img src='https://static-content.regulaforensics.com/Blog/0524-2.webp'>"
 collection: portfolio
 ---
-
+---
 ## Overview
 This project focuses on developing a **Face Recognition System** for identification, leveraging multiple deep learning models such as **Face Recognition**, **Dlib**, **Facenet**, and **VGG-Face**. The system is designed to perform **image-to-image comparison**, **real-time webcam recognition**, and **face enrollment** through a user-friendly **PyQt5-based GUI**. The application integrates with a **MySQL database** to store and manage face data, making it suitable for security, access control, and identity verification scenarios.
 

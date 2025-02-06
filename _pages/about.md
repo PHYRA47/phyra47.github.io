@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 ---
 Hi👋, my name is **Fromsa**. I am a second-year master's student in the **[Erasmus Mundus Joint Master's Degree in Photonics for Security, Reliability, and Safety (PSRS)](https://www.master-photonics4security.eu/)**. I am specializing in **biometrics** and **computer vision** at Université Paris-Est Créteil (UPEC). 
 

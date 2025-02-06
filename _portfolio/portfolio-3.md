@@ -3,7 +3,7 @@ title: "Face Analysis System: Emotion, Age, and Gender Estimation"
 excerpt: "A unified Python GUI application for real-time facial attribute analysis using deep learning <br/><img src='https://i0.wp.com/sefiks.com/wp-content/uploads/2020/09/age-gender-caffe-cover.png?resize=1024%2C638&ssl=1'>"
 collection: portfolio
 ---
-
+---
 ## Overview
 This project is a **multi-task face analysis system** that combines three biometric capabilities into a single PyQt5-based GUI application:  
 1. **Emotion Estimation**  

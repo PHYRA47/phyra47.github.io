@@ -3,7 +3,7 @@ title: "Face Recognition System for Biometric Verification"
 excerpt: "A Python-based GUI application for face recognition and verification using deep learning models <br/><img src='https://static-content.regulaforensics.com/Blog/0524-3.webp'>"
 collection: portfolio
 ---
-
+---
 ## Overview
 This project focuses on developing a **Face Recognition System** for biometric verification, leveraging state-of-the-art deep learning models such as **VGG19** and **Xception**. The system is designed to perform both **image-to-image comparison** and **real-time face recognition** through a webcam feed. Built with a user-friendly **PyQt5-based GUI**, the application provides an intuitive interface for users to interact with the system, making it suitable for both technical and non-technical audiences.
 
