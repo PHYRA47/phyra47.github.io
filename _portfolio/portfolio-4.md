@@ -15,9 +15,7 @@ To gain deeper insight into the frequency domain characteristics of the two audi
 The following code was used to generate and visualize the spectrograms:
 
 ```python
-f, t, Sxx = scipy.signal.spectrogram(mySpeech[:, 0], Fs, 
-                                    window=('kaiser', 5), 
-                                    nperseg=500, noverlap=475)
+f, t, Sxx = scipy.signal.spectrogram(mySpeech[:, 0], Fs, window=('kaiser', 5), nperseg=500, noverlap=475)
 plt.pcolormesh(t, f, 10 * np.log10(Sxx), shading='gouraud')
 ```
 
@@ -55,8 +53,6 @@ These visual differences in frequency patterns suggest that feature extraction t
 To improve classification performance and reduce computational complexity, **Principal Component Analysis (PCA)** was applied. PCA helps in dimensionality reduction by transforming the original feature space into a set of orthogonal principal components that retain most of the variance in the data.
 
 The **Cumulative Explained Variance Ratio** was plotted to determine the number of principal components required to retain **90% of the variance**. This ensures that the most significant features are preserved while eliminating redundant information.
-
-explained_variance_ratio.png
 
 <div class="row justify-content-center"> 
     <div class="col-sm-6"> 
@@ -103,15 +99,15 @@ This ensures that only the most informative features are kept, improving model e
 ### Performance Metrics
 | Model               | Accuracy | Confusion Matrix       |
 |---------------------|----------|------------------------|
-| Perceptron          | 66%      | [[5, 1], [3, 3]]       |
-| FF Neural Network   | 88%      | [[5, 1], [1, 5]]       |
-| FF MLP              | 83%      | [[5, 1], [1, 5]]       |
-| SVM (RBF Kernel)    | 92%      | [[6, 0], [1, 5]]       |
-| SVM (Poly Kernel)   | 83%      | [[5, 1], [1, 5]]       |
-| SVM (Linear Kernel) | 75%      | [[5, 1], [2, 4]]       |
-| KNN                 | 87%      | [[6, 0], [2, 4]]       |
-| Naive Bayes         | 84%      | [[5, 1], [1, 5]]       |
-| Parzen Window       | 92%      | [[6, 0], [1, 5]]       |
+| Perceptron          | 66%      | `[[5, 1], [3, 3]]`    |
+| FF Neural Network   | 88%      | `[[5, 1], [1, 5]]`    |
+| FF MLP              | 83%      | `[[5, 1], [1, 5]]`    |
+| SVM (RBF Kernel)    | 92%      | `[[6, 0], [1, 5]]`    |
+| SVM (Poly Kernel)   | 83%      | `[[5, 1], [1, 5]]`    |
+| SVM (Linear Kernel) | 75%      | `[[5, 1], [2, 4]]`    |
+| KNN                 | 87%      | `[[6, 0], [2, 4]]`    |
+| Naive Bayes         | 84%      | `[[5, 1], [1, 5]]`    |
+| Parzen Window       | 92%      | `[[6, 0], [1, 5]]`    |
 
 ## Impact & Applications
 This system demonstrates the ability to classify audio signals using machine learning, with applications in:
