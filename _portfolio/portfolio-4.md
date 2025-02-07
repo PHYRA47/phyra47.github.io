@@ -97,6 +97,7 @@ This ensures that only the most informative features are kept, improving model e
      ```
 
 ### Performance Metrics
+
 | Model               | Accuracy | Confusion Matrix       |
 |---------------------|----------|------------------------|
 | Perceptron          | 66%      | `[[5, 1], [3, 3]]`    |
