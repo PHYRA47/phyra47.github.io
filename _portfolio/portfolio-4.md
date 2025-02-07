@@ -1,6 +1,6 @@
 ---
 title: "Audio Signal Classification System"
-excerpt: "A Python-based machine learning system for classifying audio signals into two classes using feature extraction and multiple classifiers <br/><img src='/images/500x300.png'>"
+excerpt: "A Python-based machine learning system for classifying audio signals into two classes using feature extraction and multiple classifiers <br/><img src='/images/portfolio-4/thumbnail.jpeg'>"
 collection: portfolio
 ---
 ---
