@@ -60,13 +60,13 @@ explained_variance_ratio.png
 
 <div class="row justify-content-center"> 
     <div class="col-sm-6"> 
-        {% include figure.html url="/images/portfolio-4/explained_variance_ratio.png" width=80% align="center" %} 
+        {% include figure.html url="/images/portfolio-4/explained_variance_ratio.png" width="80%" align="center" %} 
     </div> 
 </div>
 
 <div class="row justify-content-center"> 
     <div class="col-sm-6"> 
-        {% include figure.html url="/images/portfolio-4/cumulative_explained_variance_ratio.png" caption="Explained Variance Ratio and Cumulative Explained Variance Ratio for PCA Components" width=80% align="center" %} 
+        {% include figure.html url="/images/portfolio-4/cumulative_explained_variance_ratio.png" caption="Explained Variance Ratio and Cumulative Explained Variance Ratio for PCA Components" width="80%" align="center" %} 
     </div> 
 </div>
 
