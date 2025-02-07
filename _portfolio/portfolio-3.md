@@ -90,11 +90,6 @@ This integrated system demonstrates how multiple biometric tasks can be efficien
 - **Security:** Enhanced person description generation
 - **Research:** Integrated platform for behavioral studies
 
-#### Benchmark tests showed:
-- **3.2×** faster processing vs running models separately
-- **89%** reduction in memory usage through model optimization
-- **95%** accuracy in cross-task validation tests
-
 ### Future Improvements
 - **Multi-Task Learning:** Single model for all attributes
 - **Edge Deployment:** TensorFlow Lite for mobile devices
@@ -103,7 +98,10 @@ This integrated system demonstrates how multiple biometric tasks can be efficien
 
 ### Links
 - [GitHub Repository](https://github.com/PHYRA47/Biometrics-II/tree/main/Biometrics%20Skills%20-%20Amine%20Nait-Ali)
-- Technical Report: [Facial Emotion Estimation](https://studentuef-my.sharepoint.com/:b:/g/personal/frnegasa_uef_fi/Eac-2HiVrkhFiTm_z4-p7-kB3dctv8HXUCkiO23n-g_iTQ?e=nhQiSf), [Age Estimation](https://studentuef-my.sharepoint.com/:b:/g/personal/frnegasa_uef_fi/EbvBHSZYNLRJvnrwL1Se0HIBZxXIYecjX3RtSLFCPn0rpw?e=XxdZfy), [Gender Estimation](https://studentuef-my.sharepoint.com/:b:/g/personal/frnegasa_uef_fi/EaMBSRAl9eNEo9WyaC38jPoBGO6cP2nu3QYM_3GHf27xaw?e=V0TmpK)
+- Technical Report: 
+    - [Facial Emotion Estimation](https://studentuef-my.sharepoint.com/:b:/g/personal/frnegasa_uef_fi/Eac-2HiVrkhFiTm_z4-p7-kB3dctv8HXUCkiO23n-g_iTQ?e=nhQiSf), 
+    - [Age Estimation](https://studentuef-my.sharepoint.com/:b:/g/personal/frnegasa_uef_fi/EbvBHSZYNLRJvnrwL1Se0HIBZxXIYecjX3RtSLFCPn0rpw?e=XxdZfy), 
+    - [Gender Estimation](https://studentuef-my.sharepoint.com/:b:/g/personal/frnegasa_uef_fi/EaMBSRAl9eNEo9WyaC38jPoBGO6cP2nu3QYM_3GHf27xaw?e=V0TmpK)
 - [Emotion Demo](https://github.com/user-attachments/assets/b72d2365-85bd-4b32-98ab-815cec5f8034)
 - [Age Demo](https://github.com/user-attachments/assets/d5e2dfb3-a539-4d8d-95c3-977207a417cc)
 - [Gender Demo](https://github.com/user-attachments/assets/e36c9998-5bc5-495c-9011-1501b0662045)
