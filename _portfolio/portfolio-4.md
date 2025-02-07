@@ -23,8 +23,23 @@ plt.pcolormesh(t, f, 10 * np.log10(Sxx), shading='gouraud')
 
 ### Observations from Spectrograms
 <div class="row justify-content-center"> 
-    <div class="col-sm-6"> {% include figure.html url="/images/portfolio-4/class1.png" caption="Waveform and Spectrogram of Class 1: Forward" width=80% align="center" %} </div> 
-    <div class="col-sm-6"> {% include figure.html url="/images/portfolio-4/class2.png" caption="Waveform and Spectrogram of Class 2: Backward" width=80% align="center" %} </div> 
+    <div class="col-sm-6"> 
+        {% include 
+            figure.html 
+            url="/images/portfolio-4/class1.png" 
+            caption="Waveform and Spectrogram of Class 1: Forward" width="80%" 
+            align="center" 
+        %} 
+    </div> 
+    <div class="col-sm-6"> 
+        {% include 
+            figure.html 
+            url="/images/portfolio-4/class2.png" 
+            caption="Waveform and Spectrogram of Class 2: Backward" 
+            width=80% 
+            align="center" 
+        %}
+    </div> 
 </div>
 
 - **Class 1 (Forward)**: The spectrogram shows dominant frequency components in the 0–1000 Hz range, with bursts of energy appearing at specific time intervals.
