@@ -65,6 +65,13 @@ Projects
   * A unified system for face recognition (verification, identification, expression, age, gender, and pose estimation).  
   * Included human body pose estimation and an integrated GUI for seamless user interaction.  
 
+* **Speech Classification** <a href="https://github.com/PHYRA47/Computer-Vision/tree/main/speech-processing-labs" target="_blank"><i class="fab fa-github"></i></a>  
+  * *Tools: Python, Scipy, Matplotlib, sounddevice*  
+  * *January 2025*  
+  * A multi-classifiers ML system that classifies audio signals into two classes ("forward" and "backward").
+  * Utilized spectrogram analysis, Principal Component Analysis (PCA), and model training and evaluation workflow.  
+
+
 * **Text-Based LLM Chat Interface and Multi-Modal LLM App with Text and Image Inputs** <a href="https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session3-hosting-llm-on-colab" target="_blank"><i class="fab fa-github"></i></a>  <a href="https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session4-multimodal-llms" target="_blank"><i class="fab fa-github"></i></a>   
   * *Tools: Python, Colab, ngrok, FastAPI*  
   * *October 2024*  
