@@ -36,12 +36,12 @@ Education
   
 Work Experience
 ======
-* **Master Thesis Researcher** <!-- Sony Europe R&D, Stuttgart Laboratory 1 (SL1)  -->
-  * ***March 2025 - August 2025***: <!-- 📍Stuttgart, Germany  -->
-  <!-- * Duties: -->
-  <!--   * Developing DL models for hyperspectral image reconstruction from CT Imaging Spectrometer data -->
-  <!--   * Optimizing neural network architectures for efficient mobile deployment -->
-  <!--   * Implementing a pipeline for image acquisition, reconstruction, and biometric analysis on Android -->
+* **Master Thesis Researcher** Sony Europe, Stuttgart Laboratory 1 (SL1)
+  * ***March 2025 - August 2025***: 📍Stuttgart, Germany
+    * Duties:
+      * Developing DL models for hyperspectral image reconstruction from CT Imaging Spectrometer data
+      * Optimizing neural network architectures for efficient mobile deployment
+      <!-- * Implementing a pipeline for image acquisition, reconstruction, and biometric analysis on Android -->
 
 * **Research Intern**, LISSI Laboratory and IMRB (Mondor Institute of Biomedical Research)  
   * **October 2024 - Ongoing**: 📍Paris, France  
@@ -135,10 +135,10 @@ Honors and Awards
 
 Certifications
 ======  
+* **MATLAB Fundamentals**, MathWorks, Issued Mar 2025, <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=3c2cf0ba-9da5-4dd5-ba46-0e955b523548&" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
 * **Android Developer Fundamentals**, Udacity, Issued Oct 2024, <a href="https://www.udacity.com/certificate/e/40f83fce-66d4-11ef-9770-5fc11b5c6322" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
 * **OpenCV Bootcamp**, OpenCV University, Issued Feb 2024, Credential ID: 0f7c19fa80234aca89476c3831b22246, <a href="https://courses.opencv.org/certificates/0f7c19fa80234aca89476c3831b22246" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
 * **Google Data Analytics Professional Certificate**, Google, Issued Jun 2023, Credential ID: 9WCMZSHPFEE3, <a href="https://coursera.org/share/156dfcfe26d13e48b4324d959ad6a74d" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
-* **MATLAB Onramp**, MathWorks, Issued Mar 2023, <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=8bdf8200-4637-4c45-957b-ba8f0ec1653c&" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
 * **Chinese Proficiency Test, HSK (Level 5)**, Center for Language Education and Cooperation, Issued May 2022, Credential ID: H52205013394, <a href="https://drive.google.com/file/d/11USCtuuzKhPIqGJ3XuZy0udaEi8SOHl1/view" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
 * **Machine Learning**, Stanford University, Issued Apr 2021, Credential ID: 5BLZTTDXUK6V, <a href="https://www.coursera.org/account/accomplishments/certificate/5BLZTTDXUK6V" target="_blank"><i class="fas fa-external-link-alt"></i></a>  
 
