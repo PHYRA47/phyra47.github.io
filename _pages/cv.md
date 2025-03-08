@@ -38,10 +38,10 @@ Work Experience
 ======
 * **Master Thesis Researcher** Sony Europe, Stuttgart Laboratory 1 (SL1)
   * ***March 2025 - August 2025***: 📍Stuttgart, Germany
-    * Duties:
-      * Developing DL models for hyperspectral image reconstruction from CT Imaging Spectrometer data
-      * Optimizing neural network architectures for efficient mobile deployment
-      <!-- * Implementing a pipeline for image acquisition, reconstruction, and biometric analysis on Android -->
+  * Duties:
+    * Developing DL models for hyperspectral image reconstruction from CT Imaging Spectrometer data
+    * Optimizing neural network architectures for efficient mobile deployment
+    <!-- * Implementing a pipeline for image acquisition, reconstruction, and biometric analysis on Android -->
 
 * **Research Intern**, LISSI Laboratory and IMRB (Mondor Institute of Biomedical Research)  
   * **October 2024 - Ongoing**: 📍Paris, France  
@@ -123,8 +123,8 @@ Honors and Awards
   * European Commission, September 2023  
   * Associated with Erasmus Mundus Joint Master Degree Photonics for Security, Reliability, and Safety (PSRS) [:link:](https://www.master-photonics4security.eu/)
 
-* **Distinguished International Student Award**, Tianjin University  
-  * July 2018  
+* **Distinguished International Student Award**
+  * Tianjin University, July 2018  
   * Awarded Full Attendance and Second Prize Scholarships for Propaedeutic Education in Chinese Language
 
 * **Chinese Government Scholarship**  
