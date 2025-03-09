@@ -148,31 +148,31 @@ Certifications
 References
 ======
 
-1. **Nathalie Destouches**  <a href="https://perso.univ-st-etienne.fr/destoucn/" arget="_blank"><i class="fas fa-globe"></i></a> | <a href="https://www.linkedin.com/in/nathalie-destouches-713605163/" target="_blank"><i class="fab fa-linkedin"></i></a>
-   Professor, Hubert Curien Laboratory  
-   University of Lyon, University of Saint-Etienne  
-   Email: nathalie.destouches@univ-st-etienne.fr  
-   Phone: +33 (0)6 07 79 52 31  
-   *Relationship: EMJMD PSRS Head Coordinator*  
-
-2. **Amine Nait-Ali**  <a href="https://www.amine-nait-ali.org/" arget="_blank"><i class="fas fa-globe"></i></a> | <a href="https://www.linkedin.com/in/amine-nait-ali-a56b5b22/" target="_blank"><i class="fab fa-linkedin"></i></a>
+1. **Amine Nait-Ali**  <a href="https://www.amine-nait-ali.org/" arget="_blank"><i class="fas fa-globe"></i></a> | <a href="https://www.linkedin.com/in/amine-nait-ali-a56b5b22/" target="_blank"><i class="fab fa-linkedin"></i></a>
    Professor, Biometrics Research Group  
    University of Paris-Est Créteil (UPEC)  
    Email: naitali@u-pec.fr  
    *Relationship: PSRS Coordinator at UPEC*  
 
 
-3. **Polina Kuzhir**  <a href="https://uefconnect.uef.fi/en/polina.kuzhir/" arget="_blank"><i class="fas fa-globe"></i></a> | <a href="https://www.linkedin.com/in/polina-kuzhir-556765bb/" target="_blank"><i class="fab fa-linkedin"></i></a>
+2. **Polina Kuzhir**  <a href="https://uefconnect.uef.fi/en/polina.kuzhir/" arget="_blank"><i class="fas fa-globe"></i></a> | <a href="https://www.linkedin.com/in/polina-kuzhir-556765bb/" target="_blank"><i class="fab fa-linkedin"></i></a>
    Professor, Department of Physics and Mathematics  
    University of Eastern Finland (UEF)  
    Email: polina.kuzhir@uef.fi  
    Phone: +358 50 566 6624  
   
+3. **Nathalie Destouches**  <a href="https://perso.univ-st-etienne.fr/destoucn/" arget="_blank"><i class="fas fa-globe"></i></a> | <a href="https://www.linkedin.com/in/nathalie-destouches-713605163/" target="_blank"><i class="fab fa-linkedin"></i></a>
+   Professor, Hubert Curien Laboratory  
+   University of Lyon, University of Saint-Etienne  
+   Email: nathalie.destouches@univ-st-etienne.fr  
+   Phone: +33 (0)6 07 79 52 31  
+   *Relationship: EMJMD PSRS Head Coordinator*  
+
   ---
  
  
   <div style="text-align: center">
-    <a href="../files/cv_mt.pdf">Download</a> my latest CV as PDF
+    <a href="../files/cv_phd.pdf">Download</a> my latest CV as PDF
   </div>
 
 
