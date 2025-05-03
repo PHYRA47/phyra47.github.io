@@ -71,7 +71,6 @@ Projects
   * A multi-classifiers ML system that classifies audio signals into two classes ("forward" and "backward").
   * Utilized spectrogram analysis, Principal Component Analysis (PCA), and model training and evaluation workflow.  
 
-
 * **Text-Based LLM Chat Interface and Multi-Modal LLM App with Text and Image Inputs** <a href="https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session3-hosting-llm-on-colab" target="_blank"><i class="fab fa-github"></i></a>  <a href="https://github.com/PHYRA47/AI-and-Innovation-Workshops/tree/main/session4-multimodal-llms" target="_blank"><i class="fab fa-github"></i></a>   
   * *Tools: Python, Colab, ngrok, FastAPI*  
   * *October 2024*  
@@ -93,16 +92,16 @@ Projects
   * Pre-processed datasets from literature sources and implemented different architectures.  
   * Achieved 93% accuracy on Amharic character recognition.  
 
-* **IChemE Process Design Project: Process Simulation and Optimization**  
-  * *Tools: Aspen Plus, AutoCAD*  
-  * *November 2021 - June 2022*  
-  * Optimized vertical flash drum equipment sizing and integrated comprehensive process flow with P&IDs.  
-
 * **Research Project: China-ASEAN Online Program on Data Science and Big Data** <a href="https://github.com/PHYRA47/NER-task-in-NLP" target="_blank"><i class="fab fa-github"></i></a>  
   * *Tools: Python, Keras*  
   * *September 2020 - December 2020*  
   * Led a four-person research team on Named Entity Recognition (NER) in Natural Language Processing.  
   * Designed and implemented NLP models for entity extraction and classification.  
+
+* **IChemE Process Design Project: Process Simulation and Optimization**  
+  * *Tools: Aspen Plus, AutoCAD*  
+  * *November 2021 - June 2022*  
+  * Optimized vertical flash drum equipment sizing and integrated comprehensive process flow with P&IDs.  
 
 
 ---
@@ -111,8 +110,9 @@ Skills
 ======
 * **Programming Languages**: Python, MATLAB, Kotlin
 * **Frameworks**: TensorFlow, OpenCV
-* **Web and Database Technologies**: HTML, CSS, JavaScript, SQL
-* **Research Skills**: Literature Review, Data Analysis, Problem Solving
+* **Web and Database Technologies**: HTML, CSS, SQL
+* **Other Tools & Technologies**: LaTeX, Git, UNIX
+* **Research Skills**: Literature Review, Data Analysis, Good Laboratory Practice, Problem Solving
 * **Languages**: English (IELTS 7.0), Chinese Mandarin (HSK 5), Amharic (Native)
 
 ---
