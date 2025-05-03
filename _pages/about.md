@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 
-### Hi 👋
+## Hi 👋
 
 My name is **Fromsa**. I am a second-year master's student in the **[Erasmus Mundus Joint Master's Degree in Photonics for Security, Reliability, and Safety (PSRS)](https://www.master-photonics4security.eu/)**, specializing in **biometrics** and **computer vision**. 
 
@@ -19,7 +19,7 @@ I am passionate about research in **hyperspectral imaging**, **computer vision**
 Previously, I completed my first three semesters at **Université Jean Monnet** in France 🇫🇷, **University of Eastern Finland** in Finland 🇫🇮, and **Université Paris-Est Créteil (UPEC)** in France 🇫🇷. I’m now doing my master’s thesis at **Sony Europe Limited** in Germany 🇩🇪. I also hold a **Bachelor of Engineering in Chemical Engineering and Technology** from Tianjin University, China 🇨🇳. Proficient in Mandarin, I cherish my time in China. (我很喜欢中国文化和中餐)。
 
 
-### Research and Professional Interests
+## Research and Professional Interests
 
 - 🤖 **Computer Vision & Deep Learning**: Working on practical applications in **biometric recognition**, including face analysis and spoof detection.
 - 🌈 **Hyperspectral Image Analysis**: Exploring spectral data processing techniques for improved scene understanding and identity verification.
