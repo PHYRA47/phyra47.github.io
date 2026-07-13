@@ -1,7 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '>= 3.6.3'
-gem 'jekyll-sitemap'
-gem 'octopress', '~> 3.0.0.rc.12'
-gem 'rouge'
-gem 'ffi', '>= 1.9.24'
+group :jekyll_plugins do
+  gem 'jekyll'
+  gem 'jekyll-feed'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-redirect-from'
+  gem 'jemoji'
+  gem 'webrick', '~> 1.8'
+end
+
+gem 'github-pages'
