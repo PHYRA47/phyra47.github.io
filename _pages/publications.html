@@ -1,0 +1,55 @@
+---
+layout: page
+permalink: /publications/
+title: My Publications
+tags: [publications]
+comments: false
+---
+<style>
+  .biblist { padding-left: 1.2em; }
+  div.noshow { display: none; }
+  div.bibtex {
+    margin-right: 0%;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+    border: 1px solid silver;
+    padding: 0em 1em;
+    background: #ffffee;
+  }
+  div.bibtex pre { font-size: 75%; overflow: auto; width: 100%; padding: 0em 0em; }
+</style>
+<script>
+  function toggleBibtex(id) {
+    var bib = document.getElementById('bib_' + id);
+    if (bib) { bib.classList.toggle('noshow'); }
+  }
+</script>
+
+{% assign categories = "journal|Journal Publications,conference|Conference Publications,preprint|Preprints" | split: "," %}
+{% for cat in categories %}
+  {% assign parts = cat | split: "|" %}
+  {% assign pubs = site.publications | where: "category", parts[0] | sort: "date" | reverse %}
+  {% if pubs.size > 0 %}
+    <h4 style="margin-bottom:0px;padding-top:10px;">{{ parts[1] }}</h4>
+    <ul class="biblist">
+      {% for pub in pubs %}
+      <li><p>
+        {{ pub.authors }}
+        <br><b><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a></b><br>
+        <i>{{ pub.venue }}</i>, {{ pub.date | date: "%Y" }}.
+        <br />
+        {% if pub.bibtex %}<a href="javascript:toggleBibtex('{{ pub.slug }}')">[BibTeX]</a>{% endif %}
+        {% if pub.paperurl %}<a href="{{ pub.paperurl }}" target="_blank">[PDF]</a>{% endif %}
+        {% if pub.projecturl %}<a href="{{ pub.projecturl }}" target="_blank">[Project Page]</a>{% endif %}
+      </p>
+      {% if pub.bibtex %}
+      <div id="bib_{{ pub.slug }}" class="bibtex noshow">
+<pre>
+{{ pub.bibtex }}</pre>
+      </div>
+      {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
