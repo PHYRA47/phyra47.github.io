@@ -25,6 +25,15 @@ comments: false
   }
 </script>
 
+{% if site.publications.size == 0 %}
+  <p>
+    Publications from my doctoral research are currently in preparation and will be
+    listed here in due course. In the meantime, please feel free to explore my
+    <a href="{{ '/portfolio/' | relative_url }}">portfolio</a> or
+    <a href="{{ '/cv/' | relative_url }}">curriculum vitae</a>.
+  </p>
+{% endif %}
+
 {% assign categories = "journal|Journal Publications,conference|Conference Publications,preprint|Preprints" | split: "," %}
 {% for cat in categories %}
   {% assign parts = cat | split: "|" %}

@@ -1,0 +1,4 @@
+<figure style="text-align: {{ include.align | default: 'center' }}; margin: 1em 0;">
+  <img src="{{ include.url | relative_url }}" alt="{{ include.caption | default: 'figure' }}"{% if include.width %} style="width: {{ include.width }}; max-width: 100%;"{% else %} style="max-width: 100%;"{% endif %}>
+  {% if include.caption %}<figcaption style="font-size: 0.85em; font-style: italic;">{{ include.caption }}</figcaption>{% endif %}
+</figure>

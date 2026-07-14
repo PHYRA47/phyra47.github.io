@@ -1,21 +1,14 @@
 ---
 layout: page
-title: Me in a Nutshell
+title: About Me
 permalink: /
-description: "Jordi Pont-Tuset's website"
-tags: [Jekyll, theme, responsive, blog, template]
+description: "Fromsa Teshome Negasa's website"
 image:
   feature: trees.jpg
 ---
 
-I am a research scientist at <a href="https://deepmind.google" target="_blank">Google DeepMind</a>.
+I am a Doctoral Student in Signal Processing and Machine Learning at <a href="https://www.tuni.fi/en" target="_blank" rel="noopener noreferrer">Tampere University</a>. I am part of the <a href="https://www.dsii.fi/" target="_blank" rel="noopener noreferrer">Doctoral School of Industry Innovations (DSII)</a>, where my research is conducted in close collaboration with Microsoft.
 
-<br />
-Previously, I worked at <a href="http://www.vision.ee.ethz.ch/index.en.html" target="_blank">ETHZ</a>
-and <a href="http://www.disneyresearch.com/research-labs/disney-research-zurich/" target="_blank">Disney Research</a>,
-and I collaborated with <a href="http://www.cs.berkeley.edu/~malik/" target="_blank">Prof. J. Malik</a>'s vision group 
-and with the startup <a href="https://gestoos.com" target="_blank">Fezoo</a>.
+My research focuses on developing end-to-end computational imaging systems that jointly optimize compact optical designs and machine learning–based image reconstruction algorithms for mobile imaging devices, with the goal of improving imaging performance under realistic physical and computational constraints.
 
-<br />
-I am a mathematician, engineer, and PhD in computer vision by <a href="http://www.upc.edu" target="_blank">UPC Barcelonatech</a>.
-
+Previously, I completed my <a href="https://www.master-photonics4security.eu/" target="_blank" rel="noopener noreferrer">Erasmus Mundus Joint Master's Degree in Photonics (PSRS)</a> at <a href="https://www.univ-st-etienne.fr/" target="_blank" rel="noopener noreferrer">Université Jean Monnet</a> in France, <a href="https://www.uef.fi/en" target="_blank" rel="noopener noreferrer">University of Eastern Finland</a> in Finland, and <a href="https://www.u-pec.fr/" target="_blank" rel="noopener noreferrer">Université Paris-Est Créteil</a> in France. I also hold a Bachelor of Engineering in Chemical Engineering and Technology from <a href="https://www.tju.edu.cn/" target="_blank" rel="noopener noreferrer">Tianjin University</a>, China.

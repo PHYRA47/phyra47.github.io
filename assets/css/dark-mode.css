@@ -13,19 +13,164 @@ html[data-theme="dark"] {
   --code-bg-color: #2a2a2a;
 }
 
+/* Make the layout indifferent to the vertical scrollbar: always reserve the
+   bar/gutter so short pages (e.g. Publications) don't shift the centered
+   layout compared to long pages */
+html {
+  overflow-y: scroll;       /* classic scrollbars: bar is always present */
+  scrollbar-gutter: stable; /* modern browsers: gutter reserved regardless */
+}
+
+/* Uniform icon column in the author-bio sidebar: narrow glyphs (map marker,
+   university) take the same width as the square GitHub/e-Mail icons */
+.author-social .fa,
+.author-social .ai {
+  display: inline-block;
+  width: 1.15em;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+/* Keep the footer at the viewport bottom even on short pages */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer-wrap {
+  margin-top: auto;
+}
+
+/* "On this page" table of contents (built by assets/js/toc.js).
+   Lives in its own right-hand pane, mirroring the author-bio pane on the
+   left: starts level with the article and sticks near the viewport top
+   while scrolling. Hidden on small screens. */
+.article-toc-side {
+  display: none;
+}
+
+/* Same mechanism as jayrobwilliams.github.io (Minimal Mistakes
+   .sidebar__right): fixed width, floated right, pulled into the article's
+   right gutter with a negative margin, sticky while scrolling. */
+@media only screen and (min-width: 64em) {
+  .article-toc-side {
+    display: block;
+    position: sticky;
+    float: right;
+    top: 2em;
+    width: 12em;
+    margin-right: -14em; /* width + 2em gap from the article edge */
+    padding-left: 1em;
+    z-index: 10;
+  }
+}
+
+/* note: class is "page-toc" because the theme's own ".toc" component
+   (absolute-positioned gray boxes) would otherwise take over */
+.page-toc {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.page-toc-title {
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 0.875rem;
+  color: #fff;
+  background: #7a8288;
+}
+
+.page-toc-title .fa {
+  margin-right: 4px;
+}
+
+.page-toc ul,
+.page-toc li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.page-toc li {
+  border-bottom: 1px solid #eee;
+}
+
+.page-toc li:last-child {
+  border-bottom: none;
+}
+
+.page-toc li::before {
+  content: none;
+}
+
+.page-toc a {
+  display: block;
+  padding: 8px 12px;
+  color: #646769;
+  border-bottom: none;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.page-toc a:hover {
+  color: #000;
+  background: #f2f2f2;
+}
+
+/* Indent sub-headings (e.g. h2 under h1) */
+.page-toc .toc-sub a {
+  padding-left: 1.8em;
+}
+
+html[data-theme="dark"] .page-toc {
+  background: var(--bg-alt-color);
+  border-color: var(--border-color);
+}
+
+html[data-theme="dark"] .page-toc li {
+  border-bottom-color: var(--border-color);
+}
+
+html[data-theme="dark"] .page-toc a {
+  color: var(--muted-color);
+}
+
+html[data-theme="dark"] .page-toc a:hover {
+  color: #fff;
+  background: #333;
+}
+
+/* CV page: first-level bullets sit on par with the section titles */
+.cv-page .article-wrap > ul {
+  margin-left: 1.2em;
+}
+
 /* Smooth the switch */
 body,
 .navigation-wrapper,
 .footer-wrap,
 code,
 pre,
-div.bibtex {
+div.bibtex,
+.image-wrap:after {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
 html[data-theme="dark"] body {
   color: var(--text-color);
   background-color: var(--bg-color);
+}
+
+/* The decorative notch under the feature image is a CSS-border triangle
+   hardcoded to white in the theme — recolor it to the dark background */
+html[data-theme="dark"] .image-wrap:after {
+  border-bottom-color: var(--bg-color);
 }
 
 html[data-theme="dark"] h1,
@@ -161,9 +306,20 @@ html[data-theme="dark"] div.bibtex {
   }
 }
 
+/* From 64em the right TOC sidebar exists: align the toggle's right edge with
+   the sidebar's right edge (= article right edge + 14em, see .article-toc-side).
+   Percentages are of .top-navigation (75vw here), so 33.333% = 25vw. */
+@media only screen and (min-width: 64em) {
+  #theme-toggle {
+    margin-right: calc(33.333% - 14em);
+  }
+}
+
+/* ≥86.375em: article ends at 70.833vw; nav is 66.666vw wide, so
+   43.75% = 29.166vw and the toggle lands at 70.833vw + 14em. */
 @media only screen and (min-width: 86.375em) {
   #theme-toggle {
-    margin-right: 25%; /* = 16.666% of viewport, mirrors .site-name margin */
+    margin-right: calc(43.75% - 14em);
   }
 }
 

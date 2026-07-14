@@ -5,7 +5,9 @@ main:
     url: /cv/
   - title: Publications
     url: /publications/
-  - title: Code
-    url: /code/
+  # - title: Code
+  #   url: /code/
+  - title: Portfolio
+    url: /portfolio/
   - title: Blog
     url: /blog/

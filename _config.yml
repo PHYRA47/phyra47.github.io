@@ -1,20 +1,20 @@
-title:            Jordi Pont-Tuset's site
-description:      Welcome to my site.
+title:            Fromsa Teshome Negasa
+description:      Fromsa Teshome Negasa's personal website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              https://jponttuset.github.io
-disqus_shortname: jponttuset
+url:              https://phyra47.github.io
 
 # Owner/author information
 owner:
-  name:           Jordi Pont-Tuset
-  avatar:         jordi.png
-  bio:            I'm from a small town near Girona, Catalunya. Currently in Zürich, Switzerland. Passionate about computer vision, technology, running, and mountains.
-  email:          jponttuset@gmail.com
+  name:           Fromsa Teshome Negasa
+  avatar:         profile.png
+  bio:            PhD Student @TAU (DSII × Microsoft)
+  location:       Tampere, Finland
+  employer:       Tampere University
+  employer_url:   https://www.tuni.fi/en
+  email:          fromsa.negasa@tuni.fi
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: jponttuset
-  linkedin: jponttuset
-  google_scholar: VCBBx24AAAAJ
-  github: jponttuset
+  linkedin: fromsa-teshome
+  github: PHYRA47
 # Analytics and webmaster tools stuff goes here
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
@@ -23,7 +23,7 @@ bing_verify:
 # Top navigation is defined in _data/navigation.yml
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Zurich
+timezone:    Europe/Helsinki
 future:      true
 #pygments:    true
 highlighter: rouge
@@ -48,9 +48,12 @@ syntax_highlighter_opts:
 
 include: [".htaccess", "_pages"]
 
-# Collections (academicpages-style): one .md file per publication in _publications/
+# Collections (academicpages-style): one .md file per publication/project
 collections:
   publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
     output: true
     permalink: /:collection/:path/
 
@@ -59,6 +62,12 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: page
+      comments: false
+  - scope:
+      path: ""
+      type: portfolio
     values:
       layout: page
       comments: false

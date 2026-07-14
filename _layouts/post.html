@@ -13,6 +13,11 @@ layout: default
         <h1><a href="{{ page.url | relative_url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       {% endif %}
     </div><!--/ .headline-wrap -->
+    {% unless page.toc == false %}
+    <div class="article-toc-side">
+      {% include _toc.html %}
+    </div>
+    {% endunless %}
     <div class="article-wrap">
       {{ content }}
       <hr />
