@@ -9,44 +9,50 @@ toc_title: Contents
 body_class: cv-page
 ---
 
----
-
 Education
 ======
+* **Doctoral Researcher in Signal Processing and Machine Learning**  
+  * **January 2026 - Present**: Tampere University, <i class="fa fa-map-marker"></i> Tampere, Finland  
+  * Doctoral School of Industry Innovations (DSII); industry collaboration with Microsoft Surface Imaging
+  * Computational imaging, optics–algorithm co-design, and machine learning–based inverse imaging
+
 * **Erasmus Mundus Joint Master's Degree (EMJMD)** in Photonics for Security, Reliability, and Safety (PSRS)  
-  * **September 2023 - Ongoing**: Université Jean Monnet, University of Eastern Finland, and Université Paris-Est Créteil (UPEC)  
+  * **September 2023 - September 2025**: Université Jean Monnet, University of Eastern Finland, and Université Paris-Est Créteil (UPEC)  
   * Achievements:
-    * Earned 30 ECTS credits at Université Jean Monnet,  with a grade of 16.13/20
-    * Earned 37 ECTS credits at the University of Eastern Finland with a grade of 4.8/5
-    * Specializing in biometrics and computer vision at UPEC
+    * Graduated with Honors (Grade: A), ranked **1/20** in cohort
+    * Grades: 16.13/20 at Université Jean Monnet, 4.8/5 at the University of Eastern Finland, 16.31/20 at UPEC
+    * Thesis: *Multi-Aperture Computed Tomography Imaging Spectrometer (MACTIS) for Biometric Authentication*
 
 * **Bachelor of Engineering in Chemical Engineering and Technology**  
-  * **June 2022**: Tianjin University, Tianjin, China  
+  * **June 2022**: Tianjin University, <i class="fa fa-map-marker"></i> Tianjin, China  
   * Achievements:
-    * GPA: 3.01/4.00  
+    * Grade: 3.01/4.00 over 175 credits
     * Propaedeutic Education program in Chinese Language prior to major coursework
     * Graduation IChemE Project: *Cyclopentanol pilot plant design with a throughput of 10000 tons/annum* 
-    * Undergraduate thesis: *Amharic character recognition task based on U-Net*
+    * Undergraduate thesis: *Deep Learning-based Amharic Character Recognition* (93% accuracy)
 
 * **Associate of Science in Computer Science**  
-  * **June 2022**: University of the People (Online)  
-  * GPA: 3.59/4.00
+  * **June 2025**: University of the People (Online)  
+  * GPA: 3.58/4.00
+  * Relevant courses: Statistical Inference in R, OOP in Python, Databases I & II (SQL)
 
 ---
   
 Work Experience
 ======
-* **Master Thesis Researcher** Sony Europe, Stuttgart Laboratory 1 (SL1)
-  * ***March 2025 - August 2025***: <i class="fa fa-map-marker"></i> Stuttgart, Germany
+* **Master Thesis Researcher**, Sony Europe Limited – Stuttgart Technology Center (STC)
+  * **March 2025 - September 2025**: <i class="fa fa-map-marker"></i> Stuttgart, Germany
   * Duties:
-    * Developing DL models for hyperspectral image reconstruction from CT Imaging Spectrometer data
-    * Optimizing neural network architectures for efficient mobile deployment
+    * Developed deep learning models for hyperspectral biometric verification using Multi-aperture CTIS
+    * Designed one-class classification pipelines (Deep SVDD and HypOC) for real vs. fake skin detection
+    * Achieved >98% AUROC on synthetic datasets; optimized model for mobile deployment
 
-* **Research Intern**, LISSI Laboratory and IMRB (Mondor Institute of Biomedical Research)  
-  * **October 2024 - Ongoing**: <i class="fa fa-map-marker"></i> Paris, France  
+* **M2 Research Intern**, LISSI Laboratory and IMRB (Mondor Institute of Biomedical Research)  
+  * **October 2024 - January 2025**: <i class="fa fa-map-marker"></i> Créteil, France  
   * Duties:
-    * Developing ML/DL methods to analyze cell migration in Duchenne Muscular Dystrophy research
-    * Automating tracking systems for myoblast migration analysis via optical microscopy data
+    * Developed ML/DL methods to analyze cell migration patterns in Duchenne Muscular Dystrophy research
+    * Implemented automated tracking systems to study myoblast migration through optical microscopy data
+    * Collaborated with interdisciplinary teams to evaluate disease progression using cell migration analysis
 
 * **Graduate Student Assistant**, SMART Bioinformatics Lab, Tianjin University  
   * **September 2022 - August 2023**: <i class="fa fa-map-marker"></i> Tianjin, China  
@@ -105,21 +111,26 @@ Projects
 
 ---
 
+Publications
+======
+* **[S.1]** Fournier, R., et al. (2025). *A Comprehensive Review of Traditional Automated Cell Tracking Techniques in Cell Migration*. Manuscript submitted for publication in **Computers in Biology and Medicine**.
+
+---
+
 Skills
 ======
 * **Programming Languages**: Python, MATLAB, Kotlin
-* **Frameworks**: TensorFlow, OpenCV
-* **Web and Database Technologies**: HTML, CSS, SQL
-* **Other Tools & Technologies**: LaTeX, Git, UNIX
+* **ML/DL Libraries**: PyTorch, TensorFlow, OpenCV
+* **Other Tools & Technologies**: Microsoft Office, LaTeX (Overleaf), Git, UNIX, HTML/CSS, SQL, Zemax
 * **Research Skills**: Literature Review, Data Analysis, Good Laboratory Practice, Problem Solving
-* **Languages**: English (IELTS 7.0), Chinese Mandarin (HSK 5), Amharic (Native)
+* **Languages**: English (IELTS: 7.0, Duolingo: 135), Mandarin Chinese (HSK 5), Amharic (Native)
 
 ---
 
 Honors and Awards
 ======
 * **Erasmus Mundus Joint Master's Degree Scholarship**  
-  * European Commission, September 2023  
+  * Education, Audiovisual and Culture Executive Agency, European Commission, September 2023  
   * Associated with Erasmus Mundus Joint Master Degree Photonics for Security, Reliability, and Safety (PSRS) <a href="https://www.master-photonics4security.eu/" target="_blank"><i class="fa fa-external-link"></i></a>
 
 * **Distinguished International Student Award**
@@ -147,28 +158,32 @@ Certifications
 References
 ======
 
-1. **Amine Nait-Ali**  <a href="https://www.amine-nait-ali.org/" target="_blank"><i class="fa fa-globe"></i></a> | <a href="https://www.linkedin.com/in/amine-nait-ali-a56b5b22/" target="_blank"><i class="fa fa-linkedin"></i></a>
-   Professor, Biometrics Research Group  
-   University of Paris-Est Créteil (UPEC)  
-   Email: naitali@u-pec.fr  
-   *Relationship: PSRS Coordinator at UPEC*  
-
+1. **Nathalie Destouches**  <a href="https://perso.univ-st-etienne.fr/destoucn/" target="_blank"><i class="fa fa-globe"></i></a> | <a href="https://www.linkedin.com/in/nathalie-destouches-713605163/" target="_blank"><i class="fa fa-linkedin"></i></a>
+   Professor, Hubert Curien Laboratory  
+   University of Lyon, University of Saint-Etienne  
+   Email: nathalie.destouches@univ-st-etienne.fr  
+   *Relationship: EMJMD PSRS Head Coordinator and Fourier Optics Instructor at UJM*  
 
 2. **Polina Kuzhir**  <a href="https://uefconnect.uef.fi/en/polina.kuzhir/" target="_blank"><i class="fa fa-globe"></i></a> | <a href="https://www.linkedin.com/in/polina-kuzhir-556765bb/" target="_blank"><i class="fa fa-linkedin"></i></a>
    Professor, Department of Physics and Mathematics  
    University of Eastern Finland (UEF)  
    Email: polina.kuzhir@uef.fi  
-   Phone: +358 50 566 6624  
-  
-3. **Nathalie Destouches**  <a href="https://perso.univ-st-etienne.fr/destoucn/" target="_blank"><i class="fa fa-globe"></i></a> | <a href="https://www.linkedin.com/in/nathalie-destouches-713605163/" target="_blank"><i class="fa fa-linkedin"></i></a>
-   Professor, Hubert Curien Laboratory  
-   University of Lyon, University of Saint-Etienne  
-   Email: nathalie.destouches@univ-st-etienne.fr  
-   Phone: +33 (0)6 07 79 52 31  
-   *Relationship: EMJMD PSRS Head Coordinator*  
+   *Relationship: Advanced Biomedical Optics course Instructor at UEF*  
+
+3. **Amine Nait-Ali**  <a href="https://www.amine-nait-ali.org/" target="_blank"><i class="fa fa-globe"></i></a> | <a href="https://www.linkedin.com/in/amine-nait-ali-a56b5b22/" target="_blank"><i class="fa fa-linkedin"></i></a>
+   Professor, Biometrics Research Group  
+   University of Paris-Est Créteil (UPEC)  
+   Email: naitali@u-pec.fr  
+   *Relationship: Local PSRS Coordinator and Biometrics II course Instructor at UPEC*  
+
+4. **Mazen Mel**  
+   Senior Engineer, Computational Sensing Group  
+   Sony Europe Limited – Stuttgart Technology Center (STC)  
+   Email: mazen.mel@sony.com  
+   *Relationship: Master's thesis supervisor at Sony*  
 
 ---
 
 <div style="text-align: center">
-  <a href="{{ '/files/cv_phd.pdf' | relative_url }}">Download</a> my latest CV as PDF
+  <a href="{{ '/files/academic_cv_phd.pdf' | relative_url }}">Download</a> my latest CV as PDF
 </div>
