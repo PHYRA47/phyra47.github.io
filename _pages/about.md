@@ -1,6 +1,7 @@
 ---
 layout: home2
 title: Me in a Nutshell
+permalink: /
 description: "Jordi Pont-Tuset's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
