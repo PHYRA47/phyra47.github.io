@@ -3,7 +3,7 @@ title: "Audio Signal Classification System"
 excerpt: "A Python-based machine learning system for classifying audio signals into two classes using feature extraction and multiple classifiers <br/><img src='/images/portfolio-4/thumbnail.jpeg'>"
 collection: portfolio
 ---
----
+
 ## Overview
 As part of **Speech Processing Course**, this project implements an **audio signal classification system** that uses machine learning to classify audio signals into two distinct classes (e.g., "forward" and "backward"). The system captures audio signals, extracts relevant features, and applies multiple machine learning models to classify the signals. It demonstrates proficiency in audio signal processing, feature extraction, and machine learning model evaluation.
 
