@@ -1,0 +1,11 @@
+# Top navigation bar. Order here = order in the bar.
+# For external links add: external: true
+main:
+  - title: Curriculum
+    url: /cv/
+  - title: Publications
+    url: /publications/
+  - title: Code
+    url: /code/
+  - title: Blog
+    url: /blog/
