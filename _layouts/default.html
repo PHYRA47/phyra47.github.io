@@ -4,7 +4,7 @@
 {% include _head.html %}
 </head>
 
-<body class="{% case page.layout %}{% when 'post' %}post{% when 'post-index' %}post-index{% else %}page{% endcase %}{% if page.body_class %} {{ page.body_class }}{% endif %}">
+<body class="{% case page.layout %}{% when 'post' %}post{% when 'project' %}post project{% when 'post-index' %}post-index{% else %}page{% endcase %}{% if page.body_class %} {{ page.body_class }}{% endif %}">
 
 {% include _browser-upgrade.html %}
 

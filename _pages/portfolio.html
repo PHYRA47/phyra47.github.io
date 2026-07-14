@@ -6,8 +6,8 @@ tags: [portfolio]
 comments: false
 ---
 {% for project in site.portfolio %}
-  <div class="portfolio-item" style="margin-bottom: 2em;">
-    <h3 style="margin-bottom: 0.2em;"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-    <p>{{ project.excerpt }}</p>
+  <div class="blog-list-item">
+    <h2><a href="{{ project.url | relative_url }}" title="{{ project.title }}">{{ project.title }}</a></h2>
+    <p class="blog-list-desc">{{ project.excerpt }}</p>
   </div>
 {% endfor %}

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <a href="{{ '/portfolio/' | relative_url }}" class="post-back-link">All Projects</a>
+    <div class="post-meta-header">
+      <h1>{{ page.title }}</h1>
+    </div><!--/ .post-meta-header -->
+    {% unless page.toc == false %}
+    <div class="article-toc-side">
+      {% include _toc.html %}
+    </div>
+    {% endunless %}
+    <div class="article-wrap">
+      {{ content }}
+    </div><!-- /.article-wrap -->
+  </article>
+</div><!-- /#main -->

@@ -209,6 +209,14 @@ html[data-theme="dark"] .page-toc a:hover {
   margin: 0;
 }
 
+/* Thumbnails embedded in portfolio excerpts */
+.blog-list-desc img {
+  display: block;
+  max-width: 100%;
+  margin-top: 0.8rem;
+  border-radius: 4px;
+}
+
 /* ===== Blog post header ===== */
 .post-back-link {
   display: inline-block;
