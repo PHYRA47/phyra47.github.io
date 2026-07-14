@@ -1,0 +1,129 @@
+/* Dark theme overrides, layered on top of main.min.css.
+   Light mode = the original theme, untouched.
+   Dark mode is activated by data-theme="dark" on <html>
+   (set by the inline script in _includes/_head.html and assets/js/theme-toggle.js). */
+
+html[data-theme="dark"] {
+  --bg-color: #1b1b1b;
+  --bg-alt-color: #252525;
+  --text-color: #d8d8d8;
+  --muted-color: #9a9a9a;
+  --link-color: #7cc4e8;
+  --border-color: #3a3a3a;
+  --code-bg-color: #2a2a2a;
+}
+
+/* Smooth the switch */
+body,
+.navigation-wrapper,
+.footer-wrap,
+code,
+pre,
+div.bibtex {
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+html[data-theme="dark"] body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6 {
+  color: var(--text-color);
+}
+
+html[data-theme="dark"] a {
+  color: var(--link-color);
+}
+
+html[data-theme="dark"] a:visited {
+  color: #a08fd0;
+}
+
+html[data-theme="dark"] a:hover,
+html[data-theme="dark"] a:focus {
+  color: #a5d8f3;
+}
+
+/* Top navigation and site name */
+html[data-theme="dark"] .site-name a,
+html[data-theme="dark"] #site-nav a {
+  color: var(--text-color);
+}
+
+html[data-theme="dark"] .site-name a:hover,
+html[data-theme="dark"] #site-nav a:hover {
+  color: #fff;
+}
+
+/* Code blocks */
+html[data-theme="dark"] code,
+html[data-theme="dark"] pre {
+  color: var(--text-color);
+  background-color: var(--code-bg-color);
+  border-color: var(--border-color);
+}
+
+/* Horizontal rules, borders, blockquotes */
+html[data-theme="dark"] hr {
+  border-color: var(--border-color);
+  background-color: var(--border-color);
+}
+
+html[data-theme="dark"] blockquote {
+  color: var(--muted-color);
+  border-left-color: var(--border-color);
+}
+
+/* Author bio sidebar and footer */
+html[data-theme="dark"] .article-author-side,
+html[data-theme="dark"] .footer-wrap,
+html[data-theme="dark"] .footer-wrap p,
+html[data-theme="dark"] .footer-wrap span {
+  color: var(--muted-color);
+}
+
+html[data-theme="dark"] .footer-wrap a,
+html[data-theme="dark"] .footer-wrap a:visited {
+  color: var(--muted-color);
+}
+
+html[data-theme="dark"] .image-credit,
+html[data-theme="dark"] .image-credit a {
+  color: var(--muted-color);
+}
+
+/* Form elements (e.g. search box on the 404 page) */
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  color: var(--text-color);
+  background-color: var(--bg-alt-color);
+  border-color: var(--border-color);
+}
+
+/* BibTeX boxes on the publications page (inline-styled in the layout) */
+html[data-theme="dark"] div.bibtex {
+  background: var(--bg-alt-color);
+  border-color: var(--border-color);
+}
+
+/* Theme toggle button (both themes) */
+#theme-toggle {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+#theme-toggle:hover {
+  opacity: 0.7;
+}

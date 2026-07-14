@@ -63,10 +63,22 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Apply saved/OS theme before CSS loads to avoid a flash of wrong theme -->
+<script>
+	(function () {
+		var storedTheme = localStorage.getItem('theme');
+		var theme = storedTheme || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+		if (theme === 'dark') {
+			document.documentElement.setAttribute('data-theme', 'dark');
+		}
+	})();
+</script>
+
 <!-- Google Webfonts -->
 <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ site.url }}/assets/css/main.min.css">
+<link rel="stylesheet" href="{{ site.url }}/assets/css/dark-mode.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/academicons.css" />
 
 <meta http-equiv="cleartype" content="on">

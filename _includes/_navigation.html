@@ -5,9 +5,10 @@
 	<div class="top-navigation">
 		<nav role="navigation" id="site-nav" class="nav">
 		    <ul>
-		        {% for link in site.links %}
+		        {% for link in site.data.navigation.main %}
 				<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 		        {% endfor %}
+				<li><button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><span id="theme-icon">&#9789;</span></button></li>
 		    </ul>
 		</nav>
 	</div><!-- /.top-navigation -->
