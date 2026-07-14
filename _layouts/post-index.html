@@ -8,8 +8,11 @@ layout: default
   <div id="index">
     <h1>{{ page.title }}</h1>
     {% for post in site.posts %}
-      <h3><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+    <div class="blog-list-item">
+      <div class="blog-list-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+      <h2><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+      <p class="blog-list-desc">{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html | truncate: 160 }}{% endif %}</p>
+    </div>
     {% endfor %}
   </div><!-- /#index -->
 </div><!-- /#main -->

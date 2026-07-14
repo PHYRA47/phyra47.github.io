@@ -164,6 +164,174 @@ html[data-theme="dark"] .page-toc a:hover {
   padding-left: 1.5em;
 }
 
+/* ===== Blog list (style adapted from garima-bazard.github.io) ===== */
+.blog-list-item {
+  margin-bottom: 1.8rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.blog-list-item:last-child {
+  border-bottom: none;
+}
+
+.blog-list-item h2 {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.blog-list-item h2 a {
+  color: #343434;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.blog-list-item h2 a:hover {
+  color: #010101;
+}
+
+.blog-list-date,
+.post-meta-date {
+  font-size: 0.8rem;
+  color: #9a9a9a;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.4rem;
+}
+
+.blog-list-desc {
+  font-size: 0.95rem;
+  color: #6b6b6b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ===== Blog post header ===== */
+.post-back-link {
+  display: inline-block;
+  margin-bottom: 1.2rem;
+  font-size: 0.85rem;
+  color: #9a9a9a;
+  text-decoration: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: none;
+}
+
+.post-back-link:hover {
+  color: #343434;
+}
+
+.post-back-link:before {
+  content: "\2190\00a0";
+}
+
+.post-meta-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.post-meta-header h1 {
+  margin-bottom: 0.3rem;
+}
+
+.post-meta-date {
+  margin-bottom: 0;
+}
+
+/* ===== Blog post content typography ===== */
+.post .article-wrap {
+  line-height: 1.8;
+}
+
+.post .article-wrap p {
+  margin-bottom: 1.2rem;
+}
+
+.post .article-wrap h1 {
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.post .article-wrap h2 {
+  font-size: 1.5rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 0.4rem;
+}
+
+.post .article-wrap h3 {
+  font-size: 1.25rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.post .article-wrap img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.post .article-wrap ul,
+.post .article-wrap ol {
+  margin-bottom: 1.2rem;
+  padding-left: 1.8rem;
+}
+
+.post .article-wrap li {
+  margin-bottom: 0.4rem;
+  line-height: 1.7;
+}
+
+.post .article-wrap p > a,
+.post .article-wrap li > a {
+  color: #308cbc;
+  border-bottom: none;
+}
+
+.post .article-wrap p > a:hover,
+.post .article-wrap li > a:hover {
+  border-bottom: 1px solid #308cbc;
+}
+
+/* Dark-mode counterparts */
+html[data-theme="dark"] .blog-list-item,
+html[data-theme="dark"] .post-meta-header,
+html[data-theme="dark"] .post .article-wrap h2 {
+  border-bottom-color: var(--border-color);
+}
+
+html[data-theme="dark"] .blog-list-item h2 a {
+  color: var(--text-color);
+}
+
+html[data-theme="dark"] .blog-list-item h2 a:hover {
+  color: #fff;
+}
+
+html[data-theme="dark"] .blog-list-desc,
+html[data-theme="dark"] .blog-list-date,
+html[data-theme="dark"] .post-meta-date,
+html[data-theme="dark"] .post-back-link {
+  color: var(--muted-color);
+}
+
+html[data-theme="dark"] .post-back-link:hover {
+  color: var(--text-color);
+}
+
+html[data-theme="dark"] .post .article-wrap p > a,
+html[data-theme="dark"] .post .article-wrap li > a {
+  color: var(--link-color);
+}
+
 /* Smooth the switch */
 body,
 .navigation-wrapper,
