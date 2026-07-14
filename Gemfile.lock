@@ -292,7 +292,7 @@ CHECKSUMS
   addressable (2.9.0)
   base64 (0.3.0)
   bigdecimal (4.1.2)
-  bundler (4.0.15) sha256=a4ceb882fe94a0e0ac63cd0813932bbfd631a14e5ac0b7975189b19a4d28d9e7
+  bundler (4.0.16) sha256=d6ca5dd440c24f9abce9844cf44cc8e18c6a553de65a47efb4544137af92c47d
   coffee-script (2.4.1)
   coffee-script-source (1.12.2)
   colorator (1.1.0)
@@ -388,4 +388,4 @@ CHECKSUMS
   webrick (1.9.2)
 
 BUNDLED WITH
-  4.0.15
+  4.0.16
