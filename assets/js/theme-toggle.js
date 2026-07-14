@@ -1,9 +1,6 @@
 // Dark/light theme toggle. The initial theme is applied by an inline script
 // in _includes/_head.html before CSS loads, to avoid a flash of wrong theme.
 (function () {
-  var SUN = "☀︎"; // shown in dark mode (click for light)
-  var MOON = "☽";      // shown in light mode (click for dark)
-
   function currentTheme() {
     return document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
   }
@@ -16,7 +13,9 @@
     }
     var icon = document.getElementById("theme-icon");
     if (icon) {
-      icon.textContent = theme === "dark" ? SUN : MOON;
+      // Font Awesome: sun shown in dark mode (click for light), moon in light mode
+      icon.classList.remove("fa-sun-o", "fa-moon-o");
+      icon.classList.add(theme === "dark" ? "fa-sun-o" : "fa-moon-o");
     }
   }
 

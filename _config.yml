@@ -1,9 +1,7 @@
 title:            Jordi Pont-Tuset's site
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              //jponttuset.github.io
-#http://localhost:5000
-#https://jponttuset.github.io
+url:              https://jponttuset.github.io
 disqus_shortname: jponttuset
 
 # Owner/author information
@@ -16,7 +14,6 @@ owner:
   twitter: jponttuset
   linkedin: jponttuset
   google_scholar: VCBBx24AAAAJ
-  google_plus: 113718226018314522413
   github: jponttuset
 # Analytics and webmaster tools stuff goes here
 google_verify:
@@ -50,4 +47,19 @@ syntax_highlighter_opts:
   css: class
 
 include: [".htaccess", "_pages"]
+
+# Collections (academicpages-style): one .md file per publication in _publications/
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+# Default frontmatter per document type
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: page
+      comments: false
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

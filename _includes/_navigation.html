@@ -1,15 +1,15 @@
 <div class="navigation-wrapper">
 	<div class="site-name">
-		<a href="{{ site.url }}">{{ site.title }}</a>
+		<a href="{{ '/' | relative_url }}">{{ site.title }}</a>
 	</div><!-- /.site-name -->
 	<div class="top-navigation">
 		<nav role="navigation" id="site-nav" class="nav">
 		    <ul>
 		        {% for link in site.data.navigation.main %}
-				<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+				<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 		        {% endfor %}
-				<li><button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><span id="theme-icon">&#9789;</span></button></li>
 		    </ul>
+			<button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><i id="theme-icon" class="fa fa-moon-o"></i></button>
 		</nav>
 	</div><!-- /.top-navigation -->
 </div><!-- /.navigation-wrapper -->

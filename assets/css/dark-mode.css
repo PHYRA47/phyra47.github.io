@@ -113,15 +113,58 @@ html[data-theme="dark"] div.bibtex {
   border-color: var(--border-color);
 }
 
-/* Theme toggle button (both themes) */
+/* Theme toggle button (both themes).
+   Like phyra47/academicpages: the button lives inside #site-nav; on non-mobile
+   widths the nav becomes a flex row and the button is pushed to its right edge. */
 #theme-toggle {
   padding: 0;
   margin: 0;
   font: inherit;
+  font-size: 1rem; /* same size as the nav links */
   color: inherit;
   cursor: pointer;
   background: none;
   border: none;
+}
+
+/* Mobile (stacked nav): pin to the top-right of the nav bar area */
+.navigation-wrapper {
+  position: relative;
+}
+
+#theme-toggle {
+  position: absolute;
+  top: 2em; /* wrapper has 2em top padding */
+  right: 8.333%; /* matches the theme's mobile grid margin */
+}
+
+/* Desktop: in-flow flex item pushed to the right end of the nav links row
+   (phyra47 approach), with a right margin mirroring the site name's left
+   margin so the button sits opposite the site name, not at the screen edge.
+   Margins are % of .top-navigation (75vw / 66.66vw wide respectively). */
+@media only screen and (min-width: 37.5em) {
+  #site-nav {
+    display: flex;
+    align-items: center; /* same as phyra47's .greedy-nav */
+  }
+
+  #site-nav > ul {
+    flex: 1;
+    min-width: 0;
+  }
+
+  #theme-toggle {
+    position: static;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: 5.555%; /* = 4.166% of viewport, mirrors .site-name margin */
+  }
+}
+
+@media only screen and (min-width: 86.375em) {
+  #theme-toggle {
+    margin-right: 25%; /* = 16.666% of viewport, mirrors .site-name margin */
+  }
 }
 
 #theme-toggle:hover {

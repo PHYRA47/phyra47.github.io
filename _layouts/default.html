@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+{% include _head.html %}
+</head>
+
+<body class="{% case page.layout %}{% when 'post' %}post{% when 'post-index' %}post-index{% else %}page{% endcase %}">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% include _feature-image.html %}
+
+{{ content }}
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+
+</body>
+</html>

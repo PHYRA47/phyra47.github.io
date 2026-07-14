@@ -1,5 +1,5 @@
 ---
-layout: home2
+layout: page
 title: Me in a Nutshell
 permalink: /
 description: "Jordi Pont-Tuset's website"
