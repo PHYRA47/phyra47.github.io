@@ -111,12 +111,6 @@ Projects
 
 ---
 
-Publications
-======
-* **[S.1]** Fournier, R., et al. (2025). *A Comprehensive Review of Traditional Automated Cell Tracking Techniques in Cell Migration*. Manuscript submitted for publication in **Computers in Biology and Medicine**.
-
----
-
 Skills
 ======
 * **Programming Languages**: Python, MATLAB, Kotlin
@@ -185,5 +179,5 @@ References
 ---
 
 <div style="text-align: center">
-  <a href="{{ '/files/academic_cv_phd.pdf' | relative_url }}">Download</a> my latest CV as PDF
+  <a href="{{ '/files/academic_cv_phd.pdf' | relative_url }}" target="_blank" rel="noopener">Get</a> my latest CV as PDF
 </div>
